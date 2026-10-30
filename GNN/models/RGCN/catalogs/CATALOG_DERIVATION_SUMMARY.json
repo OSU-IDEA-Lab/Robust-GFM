@@ -1,0 +1,127 @@
+{
+  "catalogs": [
+    {
+      "catalog_sha256": "7658979eb94ecbd1bb354aa7b607176f21aeadcd2001aeef105a20a17a3d567a",
+      "num_base_relations": 10,
+      "num_mapped_relations": 4,
+      "num_semantic_relations": 14,
+      "path": "exact_2/union/center.json",
+      "scope": "center",
+      "set_mode": "union",
+      "up_to_variant": "exact_2"
+    },
+    {
+      "catalog_sha256": "2d5d63307052d543e8fe999e82bdb829ca13ae0e7cf4a2f6c4da02d74db4876e",
+      "num_base_relations": 36,
+      "num_mapped_relations": 6,
+      "num_semantic_relations": 42,
+      "path": "exact_2/union/all_graph.json",
+      "scope": "all_graph",
+      "set_mode": "union",
+      "up_to_variant": "exact_2"
+    },
+    {
+      "catalog_sha256": "27fb87e5a1a6829fdf206b0c2959b4f4724b6568dc2feac76f2ea321d1c106c8",
+      "num_base_relations": 8,
+      "num_mapped_relations": 4,
+      "num_semantic_relations": 12,
+      "path": "exact_2/intersection/center.json",
+      "scope": "center",
+      "set_mode": "intersection",
+      "up_to_variant": "exact_2"
+    },
+    {
+      "catalog_sha256": "4ca76a70e2bf573219a051135ff5ddef88f9ffb90e9fe0c5e32a92cdd3e3d8e9",
+      "num_base_relations": 36,
+      "num_mapped_relations": 6,
+      "num_semantic_relations": 42,
+      "path": "exact_2/intersection/all_graph.json",
+      "scope": "all_graph",
+      "set_mode": "intersection",
+      "up_to_variant": "exact_2"
+    },
+    {
+      "catalog_sha256": "1e89b1041f835647d48ad88494f95f4f4201673658f61b6e1fc03954ce7a2f08",
+      "num_base_relations": 14,
+      "num_mapped_relations": 18,
+      "num_semantic_relations": 32,
+      "path": "exact_3/union/center.json",
+      "scope": "center",
+      "set_mode": "union",
+      "up_to_variant": "exact_3"
+    },
+    {
+      "catalog_sha256": "2e1f211f512b4756e277419d4be021979f6486cb814b69e6100b89d9db43ca50",
+      "num_base_relations": 36,
+      "num_mapped_relations": 28,
+      "num_semantic_relations": 64,
+      "path": "exact_3/union/all_graph.json",
+      "scope": "all_graph",
+      "set_mode": "union",
+      "up_to_variant": "exact_3"
+    },
+    {
+      "catalog_sha256": "85a28350f3d95944f0b414b08e972b7967ab4b7a59d46ed157fc8010f381df75",
+      "num_base_relations": 8,
+      "num_mapped_relations": 18,
+      "num_semantic_relations": 26,
+      "path": "exact_3/intersection/center.json",
+      "scope": "center",
+      "set_mode": "intersection",
+      "up_to_variant": "exact_3"
+    },
+    {
+      "catalog_sha256": "8b28be1fbdabee40bfbab36af77ec58e036afcf683093d26906118c25fee5a34",
+      "num_base_relations": 36,
+      "num_mapped_relations": 28,
+      "num_semantic_relations": 64,
+      "path": "exact_3/intersection/all_graph.json",
+      "scope": "all_graph",
+      "set_mode": "intersection",
+      "up_to_variant": "exact_3"
+    },
+    {
+      "catalog_sha256": "af344ed43a17674c5a6f9aaebfb36ae6557e4839b4e4e1c2062f150ffac63e42",
+      "num_base_relations": 33,
+      "num_mapped_relations": 90,
+      "num_semantic_relations": 123,
+      "path": "range_2_3/union/center.json",
+      "scope": "center",
+      "set_mode": "union",
+      "up_to_variant": "range_2_3"
+    },
+    {
+      "catalog_sha256": "cc3b3d1f9d873dccc3eea3a89dd57ab06c2666c0330ea4543b2fab0791cd6bce",
+      "num_base_relations": 36,
+      "num_mapped_relations": 182,
+      "num_semantic_relations": 218,
+      "path": "range_2_3/union/all_graph.json",
+      "scope": "all_graph",
+      "set_mode": "union",
+      "up_to_variant": "range_2_3"
+    },
+    {
+      "catalog_sha256": "dcbe96385f27fe4b0412cfb926ec9687abca6ad548a590eca4f4e271b46fcd6e",
+      "num_base_relations": 8,
+      "num_mapped_relations": 90,
+      "num_semantic_relations": 98,
+      "path": "range_2_3/intersection/center.json",
+      "scope": "center",
+      "set_mode": "intersection",
+      "up_to_variant": "range_2_3"
+    },
+    {
+      "catalog_sha256": "3f30967e9112b4c93c509905c87b5281da831bae578dae49381ebb1c2b91aa77",
+      "num_base_relations": 36,
+      "num_mapped_relations": 182,
+      "num_semantic_relations": 218,
+      "path": "range_2_3/intersection/all_graph.json",
+      "scope": "all_graph",
+      "set_mode": "intersection",
+      "up_to_variant": "range_2_3"
+    }
+  ],
+  "format_version": "freebase_rgcn_catalog_derivation_summary_v1",
+  "magnn_package": "MAGNN_Freebase_Canonical_Message_Package",
+  "num_catalogs": 12
+}

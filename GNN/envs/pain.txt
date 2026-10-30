@@ -1,0 +1,14 @@
+# PAIN (models/PAIN) environment.
+# Tested with Python 3.11.4 and PyTorch 2.13.0+cu126. PAIN's deterministic segment sum uses a CUDA cumsum
+# that has no deterministic kernel in older PyTorch releases (e.g. 2.4, the main environment), so PAIN needs
+# its own environment. CUDA 12.6 wheels still include V100 (sm_70) kernels.
+#
+#   python3.11 -m venv .venv-pain && source .venv-pain/bin/activate
+#   pip install -r envs/pain.txt
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.13.0+cu126
+numpy==1.26.4
+pandas==3.0.6
+PyYAML==6.0.3
+scipy==1.17.1
+scikit-learn==1.9.1

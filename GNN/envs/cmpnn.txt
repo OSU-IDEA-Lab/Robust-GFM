@@ -1,0 +1,24 @@
+# CMPNN (models/CMPNN) environment.
+# Tested with Python 3.10.20, PyTorch 2.0.1+cu118, torchdrug 0.2.1, torch_scatter 2.1.2
+# (relevant subset of the environment's pip freeze below).
+# torchdrug JIT-compiles its `generalized_rspmm` CUDA extension on first use: a matching nvcc must be on PATH
+# (tested with CUDA 11.7 on V100; see models/CMPNN/scripts/setup.sh), and the
+# extension cache should be per GPU architecture (TORCH_EXTENSIONS_DIR).
+#
+#   conda create -n torchdrug_env python=3.10
+#   pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+#   pip install torch-scatter==2.1.2 torch-cluster==1.6.3 -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
+#   pip install -r envs/cmpnn.txt
+torchdrug==0.2.1
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+ninja==1.13.0
+rdkit-pypi==2022.9.5
+networkx==3.4.2
+matplotlib==3.10.9
+decorator==5.3.1
+lmdb==2.3.0
+tqdm==4.69.1
+Jinja2==3.1.6

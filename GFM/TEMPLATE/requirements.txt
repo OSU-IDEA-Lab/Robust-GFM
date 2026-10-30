@@ -1,0 +1,6 @@
+# <NAME> evaluation (list the exact versions you tested). Python 3.11, CUDA 12.4.
+#   pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.4.0
+numpy==2.2.2
+scipy==1.15.1

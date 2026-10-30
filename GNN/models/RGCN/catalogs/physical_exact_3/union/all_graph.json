@@ -1,0 +1,952 @@
+{
+ "center_type": 0,
+ "derived_from": "physical relations of the variant's own info.dat",
+ "format_version": "freebase_rgcn_block_catalog_v1",
+ "node_type_names": {
+  "0": "BOOK",
+  "1": "FILM",
+  "2": "MUSIC",
+  "3": "SPORTS",
+  "4": "PEOPLE",
+  "5": "LOCATION",
+  "6": "ORGANIZATION",
+  "7": "BUSINESS"
+ },
+ "num_physical_relations": 58,
+ "physical_catalog_sha256": "b1e733365f9d03ecd83a90009326e77a0eaf32f6f33aba119d9e962ffc735104",
+ "physical_only": true,
+ "scope": "all_graph",
+ "semantic_relations": [
+  {
+   "composition": [
+    "BOOK-and-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-and-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-to-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-to-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-on-SPORTS"
+   ],
+   "end_type": 3,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-on-SPORTS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-on-LOCATION"
+   ],
+   "end_type": 5,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-on-LOCATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-about-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-about-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "FILM-and-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "FILM-and-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 1,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-in-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-in-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-in-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-in-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-and-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-and-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-for-SPORTS"
+   ],
+   "end_type": 3,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-for-SPORTS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-on-LOCATION"
+   ],
+   "end_type": 5,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-on-LOCATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "SPORTS-in-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "SPORTS-in-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 3,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "SPORTS-and-SPORTS"
+   ],
+   "end_type": 3,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "SPORTS-and-SPORTS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 3,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "SPORTS-on-LOCATION"
+   ],
+   "end_type": 5,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "SPORTS-on-LOCATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 3,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-to-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-to-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-to-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-to-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-to-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-to-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-to-SPORTS"
+   ],
+   "end_type": 3,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-to-SPORTS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-and-PEOPLE"
+   ],
+   "end_type": 4,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-and-PEOPLE",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-on-LOCATION"
+   ],
+   "end_type": 5,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-on-LOCATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-in-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-in-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "PEOPLE-in-BUSINESS"
+   ],
+   "end_type": 7,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "PEOPLE-in-BUSINESS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 4,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "LOCATION-in-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "LOCATION-in-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 5,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "LOCATION-and-LOCATION"
+   ],
+   "end_type": 5,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "LOCATION-and-LOCATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 5,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-in-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-in-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-to-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-to-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-to-SPORTS"
+   ],
+   "end_type": 3,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-to-SPORTS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-on-LOCATION"
+   ],
+   "end_type": 5,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-on-LOCATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-and-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-and-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-for-BUSINESS"
+   ],
+   "end_type": 7,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-for-BUSINESS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-about-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-about-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-about-FILM"
+   ],
+   "end_type": 1,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-about-FILM",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-about-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-about-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-about-SPORTS"
+   ],
+   "end_type": 3,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-about-SPORTS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-on-LOCATION"
+   ],
+   "end_type": 5,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-on-LOCATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-and-BUSINESS"
+   ],
+   "end_type": 7,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-and-BUSINESS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS"
+   ],
+   "end_type": 7,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS"
+   ],
+   "end_type": 7,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS"
+   ],
+   "end_type": 7,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC"
+   ],
+   "end_type": 2,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 0,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 7,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS"
+   ],
+   "end_type": 7,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION"
+   ],
+   "end_type": 6,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 2,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  },
+  {
+   "composition": [
+    "ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK"
+   ],
+   "end_type": 0,
+   "expected_unique_endpoint_pairs": null,
+   "hop_count": 1,
+   "kind": "base",
+   "name": "ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK",
+   "registry_variant": null,
+   "source_variants": [
+    "exact_3"
+   ],
+   "start_type": 6,
+   "used_by_metapaths": []
+  }
+ ],
+ "set_mode": "union",
+ "source_variant_dir": "data/dataset_variant_3hops_filtered/exact_3",
+ "up_to_variant": "physical_exact_3"
+}

@@ -1,0 +1,1 @@
+../../common/wordnet_structural_common.py

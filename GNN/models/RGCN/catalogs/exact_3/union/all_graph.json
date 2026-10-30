@@ -1,0 +1,4141 @@
+{
+  "center_type": 0,
+  "derived_from": "MAGNN_Freebase_Canonical_Message_Package",
+  "format_version": "freebase_rgcn_block_catalog_v1",
+  "magnn_canonical_catalog_hash": "b137993f7a433ca50e446d0c4e342382b06eeb1180693a32e7020165e7252eec",
+  "scope": "all_graph",
+  "semantic_relations": [
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BOOK-about-ORGANIZATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        14,
+        16,
+        17,
+        20,
+        23,
+        31,
+        36,
+        39,
+        41,
+        43,
+        90,
+        92,
+        94,
+        99,
+        104
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-and-ORGANIZATION",
+        "ORGANIZATION-for-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": 121333,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        0
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-and-ORGANIZATION",
+        "ORGANIZATION-to-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": 1138594,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        2
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-for-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": 177260,
+      "hop_count": 2,
+      "kind": "mapped",
+      "name": "BOOK-about-ORGANIZATION-for-BUSINESS",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_2"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        5,
+        8,
+        10,
+        19,
+        38
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-for-BUSINESS",
+        "BUSINESS-about-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": 87324926,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        4
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-for-BUSINESS",
+        "BUSINESS-and-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": 10357574,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        7
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-to-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": 43930565,
+      "hop_count": 2,
+      "kind": "mapped",
+      "name": "BOOK-about-ORGANIZATION-to-MUSIC",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_2"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        13,
+        15,
+        22
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-to-MUSIC",
+        "MUSIC-and-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": 234153417,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        12
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-and-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BOOK-and-BOOK",
+      "registry_variant": null,
+      "source_variants": [
+        "exact_2",
+        "unchanged",
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        19,
+        20,
+        22,
+        23,
+        24,
+        43,
+        68,
+        69,
+        82,
+        83,
+        94
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-and-BOOK",
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-for-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": 500231,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        18
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-and-BOOK",
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-to-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": 104975615,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        21
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-on-LOCATION"
+      ],
+      "end_type": 5,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BOOK-on-LOCATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        25
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-on-SPORTS"
+      ],
+      "end_type": 3,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BOOK-on-SPORTS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        26
+      ]
+    },
+    {
+      "composition": [
+        "BOOK-to-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BOOK-to-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 0,
+      "used_by_metapaths": [
+        27
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BUSINESS-about-BOOK",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_3",
+        "exact_2"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        62,
+        69,
+        71,
+        75,
+        90,
+        92,
+        94,
+        95,
+        104
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-BOOK",
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 1944239,
+      "hop_count": 2,
+      "kind": "mapped",
+      "name": "BUSINESS-about-BOOK-about-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_2"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        89,
+        91,
+        103
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-BOOK",
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-and-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 775784,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        88
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-BOOK",
+        "BOOK-and-BOOK",
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 1972151,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        93
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BUSINESS-about-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        96
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BUSINESS-about-MUSIC",
+      "registry_variant": null,
+      "source_variants": [
+        "exact_2",
+        "unchanged",
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        5,
+        6,
+        73,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-MUSIC",
+        "MUSIC-in-BOOK",
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 52292,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        97
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-about-SPORTS"
+      ],
+      "end_type": 3,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BUSINESS-about-SPORTS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        101
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-and-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BUSINESS-and-BUSINESS",
+      "registry_variant": null,
+      "source_variants": [
+        "exact_2",
+        "unchanged",
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        8,
+        9,
+        75,
+        103,
+        104,
+        105
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-and-BUSINESS",
+        "BUSINESS-about-BOOK",
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 468521,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        102
+      ]
+    },
+    {
+      "composition": [
+        "BUSINESS-on-LOCATION"
+      ],
+      "end_type": 5,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "BUSINESS-on-LOCATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 7,
+      "used_by_metapaths": [
+        106
+      ]
+    },
+    {
+      "composition": [
+        "FILM-and-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "FILM-and-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 1,
+      "used_by_metapaths": [
+        28
+      ]
+    },
+    {
+      "composition": [
+        "LOCATION-and-LOCATION"
+      ],
+      "end_type": 5,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "LOCATION-and-LOCATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 5,
+      "used_by_metapaths": [
+        58
+      ]
+    },
+    {
+      "composition": [
+        "LOCATION-in-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "LOCATION-in-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 5,
+      "used_by_metapaths": [
+        59
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-and-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "MUSIC-and-MUSIC",
+      "registry_variant": null,
+      "source_variants": [
+        "exact_2",
+        "unchanged",
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        13,
+        14,
+        30,
+        31,
+        32,
+        80
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-and-MUSIC",
+        "MUSIC-in-BOOK",
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 1116816,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        29
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-for-SPORTS"
+      ],
+      "end_type": 3,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "MUSIC-for-SPORTS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        33
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-in-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "MUSIC-in-BOOK",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        31,
+        36,
+        38,
+        39,
+        41,
+        43,
+        44,
+        65,
+        73,
+        80,
+        83,
+        85,
+        99
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-in-BOOK",
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 186795,
+      "hop_count": 2,
+      "kind": "mapped",
+      "name": "MUSIC-in-BOOK-about-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_2"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        30,
+        35,
+        40,
+        98
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-in-BOOK",
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-and-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 350368,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        34
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-in-BOOK",
+        "BOOK-about-ORGANIZATION",
+        "ORGANIZATION-for-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": 891278,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        37
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-in-BOOK",
+        "BOOK-and-BOOK",
+        "BOOK-about-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": 793019,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        42
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-in-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "MUSIC-in-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        45
+      ]
+    },
+    {
+      "composition": [
+        "MUSIC-on-LOCATION"
+      ],
+      "end_type": 5,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "MUSIC-on-LOCATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 2,
+      "used_by_metapaths": [
+        46
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-and-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "ORGANIZATION-and-ORGANIZATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        1,
+        3,
+        35,
+        36,
+        61,
+        62,
+        64,
+        65,
+        66,
+        89,
+        90
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-and-ORGANIZATION",
+        "ORGANIZATION-for-BUSINESS",
+        "BUSINESS-about-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 53433,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        60
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-and-ORGANIZATION",
+        "ORGANIZATION-to-MUSIC",
+        "MUSIC-in-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 21213,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        63
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-for-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "ORGANIZATION-for-BUSINESS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        1,
+        6,
+        9,
+        11,
+        20,
+        39,
+        62,
+        69,
+        71,
+        73,
+        75,
+        76
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-for-BUSINESS",
+        "BUSINESS-about-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 64076,
+      "hop_count": 2,
+      "kind": "mapped",
+      "name": "ORGANIZATION-for-BUSINESS-about-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_2"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        61,
+        68,
+        70
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-for-BUSINESS",
+        "BUSINESS-about-BOOK",
+        "BOOK-and-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 307884,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        67
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-for-BUSINESS",
+        "BUSINESS-about-MUSIC",
+        "MUSIC-in-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 47274,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        72
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-for-BUSINESS",
+        "BUSINESS-and-BUSINESS",
+        "BUSINESS-about-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 334395,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        74
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-in-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "ORGANIZATION-in-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        77
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-on-LOCATION"
+      ],
+      "end_type": 5,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "ORGANIZATION-on-LOCATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        78
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-to-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "ORGANIZATION-to-MUSIC",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        3,
+        14,
+        16,
+        23,
+        65,
+        80,
+        83,
+        85,
+        86
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-to-MUSIC",
+        "MUSIC-and-MUSIC",
+        "MUSIC-in-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 23220,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        79
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-to-MUSIC",
+        "MUSIC-in-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 8368,
+      "hop_count": 2,
+      "kind": "mapped",
+      "name": "ORGANIZATION-to-MUSIC-in-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_2"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        64,
+        82,
+        84
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-to-MUSIC",
+        "MUSIC-in-BOOK",
+        "BOOK-and-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": 130110,
+      "hop_count": 3,
+      "kind": "mapped",
+      "name": "ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK",
+      "registry_variant": "range_2_3",
+      "source_variants": [
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        81
+      ]
+    },
+    {
+      "composition": [
+        "ORGANIZATION-to-SPORTS"
+      ],
+      "end_type": 3,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "ORGANIZATION-to-SPORTS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 6,
+      "used_by_metapaths": [
+        87
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-and-PEOPLE"
+      ],
+      "end_type": 4,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-and-PEOPLE",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        50
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-in-BUSINESS"
+      ],
+      "end_type": 7,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-in-BUSINESS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        51
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-in-ORGANIZATION"
+      ],
+      "end_type": 6,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-in-ORGANIZATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        52
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-on-LOCATION"
+      ],
+      "end_type": 5,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-on-LOCATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        53
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-to-BOOK"
+      ],
+      "end_type": 0,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-to-BOOK",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        54
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-to-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-to-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        55
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-to-MUSIC"
+      ],
+      "end_type": 2,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-to-MUSIC",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        56
+      ]
+    },
+    {
+      "composition": [
+        "PEOPLE-to-SPORTS"
+      ],
+      "end_type": 3,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "PEOPLE-to-SPORTS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 4,
+      "used_by_metapaths": [
+        57
+      ]
+    },
+    {
+      "composition": [
+        "SPORTS-and-SPORTS"
+      ],
+      "end_type": 3,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "SPORTS-and-SPORTS",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 3,
+      "used_by_metapaths": [
+        47
+      ]
+    },
+    {
+      "composition": [
+        "SPORTS-in-FILM"
+      ],
+      "end_type": 1,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "SPORTS-in-FILM",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 3,
+      "used_by_metapaths": [
+        48
+      ]
+    },
+    {
+      "composition": [
+        "SPORTS-on-LOCATION"
+      ],
+      "end_type": 5,
+      "expected_unique_endpoint_pairs": null,
+      "hop_count": 1,
+      "kind": "base",
+      "name": "SPORTS-on-LOCATION",
+      "registry_variant": null,
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ],
+      "start_type": 3,
+      "used_by_metapaths": [
+        49
+      ]
+    }
+  ],
+  "set_mode": "union",
+  "source_manifest": "generated_preprocess/unchanged/exact_3/union/all_graph/canonical_metapath_manifest.json",
+  "source_metapaths": [
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 0,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS::+1:BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        0,
+        7,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 1,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-and-ORGANIZATION-for-BUSINESS::+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-and-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS__-1:ORGANIZATION-for-BUSINESS__-1:ORGANIZATION-and-ORGANIZATION__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        6,
+        7,
+        6,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 2,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC::+1:BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC__-1:BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        0,
+        2,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 3,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-and-ORGANIZATION-to-MUSIC::+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-and-ORGANIZATION__+1:ORGANIZATION-to-MUSIC__-1:ORGANIZATION-to-MUSIC__-1:ORGANIZATION-and-ORGANIZATION__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        6,
+        2,
+        6,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 4,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC::+1:BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC__-1:BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC",
+      "semantic_node_metapath": [
+        0,
+        2,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC",
+        "-1:BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 5,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC::+1:BOOK-about-ORGANIZATION-for-BUSINESS__+1:BUSINESS-about-MUSIC__-1:BUSINESS-about-MUSIC__-1:BOOK-about-ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        0,
+        7,
+        2,
+        7,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:BOOK-about-ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 6,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS-about-MUSIC::+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS__+1:BUSINESS-about-MUSIC__-1:BUSINESS-about-MUSIC__-1:ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        7,
+        2,
+        7,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 7,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS::+1:BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS__-1:BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS",
+      "semantic_node_metapath": [
+        0,
+        7,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 8,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS::+1:BOOK-about-ORGANIZATION-for-BUSINESS__+1:BUSINESS-and-BUSINESS__-1:BUSINESS-and-BUSINESS__-1:BOOK-about-ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        0,
+        7,
+        7,
+        7,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 9,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS-and-BUSINESS::+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS__+1:BUSINESS-and-BUSINESS__-1:BUSINESS-and-BUSINESS__-1:ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        7,
+        7,
+        7,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 10,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS::+1:BOOK-about-ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        0,
+        7,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 11,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-for-BUSINESS::+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS__-1:ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        7,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "-1:MUSIC-and-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 12,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC::+1:BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC__-1:BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC",
+      "semantic_node_metapath": [
+        0,
+        2,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC",
+        "-1:BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "-1:MUSIC-and-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 13,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC::+1:BOOK-about-ORGANIZATION-to-MUSIC__+1:MUSIC-and-MUSIC__-1:MUSIC-and-MUSIC__-1:BOOK-about-ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        0,
+        2,
+        2,
+        2,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "-1:MUSIC-and-MUSIC",
+        "-1:BOOK-about-ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "-1:MUSIC-and-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 14,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-to-MUSIC-and-MUSIC::+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-to-MUSIC__+1:MUSIC-and-MUSIC__-1:MUSIC-and-MUSIC__-1:ORGANIZATION-to-MUSIC__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        2,
+        2,
+        2,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "-1:MUSIC-and-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 15,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-to-MUSIC::+1:BOOK-about-ORGANIZATION-to-MUSIC__-1:BOOK-about-ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        0,
+        2,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 16,
+      "name": "union_invariant::BOOK-about-ORGANIZATION-to-MUSIC::+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-to-MUSIC__-1:ORGANIZATION-to-MUSIC__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        2,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "index": 17,
+      "name": "union_invariant::BOOK-about-ORGANIZATION::+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        0,
+        6,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "index": 18,
+      "name": "union_invariant::BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS::+1:BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS__-1:BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        0,
+        7,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "index": 19,
+      "name": "union_invariant::BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS::+1:BOOK-and-BOOK__+1:BOOK-about-ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION-for-BUSINESS__-1:BOOK-and-BOOK",
+      "semantic_node_metapath": [
+        0,
+        0,
+        7,
+        0,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-and-BOOK"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "index": 20,
+      "name": "union_invariant::BOOK-and-BOOK-about-ORGANIZATION-for-BUSINESS::+1:BOOK-and-BOOK__+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS__-1:ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION__-1:BOOK-and-BOOK",
+      "semantic_node_metapath": [
+        0,
+        0,
+        6,
+        7,
+        6,
+        0,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "index": 21,
+      "name": "union_invariant::BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC::+1:BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC__-1:BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        0,
+        2,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC",
+        "-1:BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "index": 22,
+      "name": "union_invariant::BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC::+1:BOOK-and-BOOK__+1:BOOK-about-ORGANIZATION-to-MUSIC__-1:BOOK-about-ORGANIZATION-to-MUSIC__-1:BOOK-and-BOOK",
+      "semantic_node_metapath": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION-to-MUSIC",
+        "-1:BOOK-and-BOOK"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "index": 23,
+      "name": "union_invariant::BOOK-and-BOOK-about-ORGANIZATION-to-MUSIC::+1:BOOK-and-BOOK__+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-to-MUSIC__-1:ORGANIZATION-to-MUSIC__-1:BOOK-about-ORGANIZATION__-1:BOOK-and-BOOK",
+      "semantic_node_metapath": [
+        0,
+        0,
+        6,
+        2,
+        6,
+        0,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK"
+      ],
+      "index": 24,
+      "name": "union_invariant::BOOK-and-BOOK::+1:BOOK-and-BOOK__-1:BOOK-and-BOOK",
+      "semantic_node_metapath": [
+        0,
+        0,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-on-LOCATION",
+        "-1:BOOK-on-LOCATION"
+      ],
+      "index": 25,
+      "name": "union_invariant::BOOK-on-LOCATION::+1:BOOK-on-LOCATION__-1:BOOK-on-LOCATION",
+      "semantic_node_metapath": [
+        0,
+        5,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-on-LOCATION",
+        "-1:BOOK-on-LOCATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-on-SPORTS",
+        "-1:BOOK-on-SPORTS"
+      ],
+      "index": 26,
+      "name": "union_invariant::BOOK-on-SPORTS::+1:BOOK-on-SPORTS__-1:BOOK-on-SPORTS",
+      "semantic_node_metapath": [
+        0,
+        3,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-on-SPORTS",
+        "-1:BOOK-on-SPORTS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BOOK-to-FILM",
+        "-1:BOOK-to-FILM"
+      ],
+      "index": 27,
+      "name": "union_invariant::BOOK-to-FILM::+1:BOOK-to-FILM__-1:BOOK-to-FILM",
+      "semantic_node_metapath": [
+        0,
+        1,
+        0
+      ],
+      "semantic_signature": [
+        "+1:BOOK-to-FILM",
+        "-1:BOOK-to-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:FILM-and-FILM",
+        "-1:FILM-and-FILM"
+      ],
+      "index": 28,
+      "name": "union_invariant::FILM-and-FILM::+1:FILM-and-FILM__-1:FILM-and-FILM",
+      "semantic_node_metapath": [
+        1,
+        1,
+        1
+      ],
+      "semantic_signature": [
+        "+1:FILM-and-FILM",
+        "-1:FILM-and-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:MUSIC-and-MUSIC"
+      ],
+      "index": 29,
+      "name": "union_invariant::MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION::+1:MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION__-1:MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        2,
+        6,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION",
+        "-1:MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:MUSIC-and-MUSIC"
+      ],
+      "index": 30,
+      "name": "union_invariant::MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION::+1:MUSIC-and-MUSIC__+1:MUSIC-in-BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK-about-ORGANIZATION__-1:MUSIC-and-MUSIC",
+      "semantic_node_metapath": [
+        2,
+        2,
+        6,
+        2,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK-about-ORGANIZATION",
+        "-1:MUSIC-and-MUSIC"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:MUSIC-and-MUSIC"
+      ],
+      "index": 31,
+      "name": "union_invariant::MUSIC-and-MUSIC-in-BOOK-about-ORGANIZATION::+1:MUSIC-and-MUSIC__+1:MUSIC-in-BOOK__+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK__-1:MUSIC-and-MUSIC",
+      "semantic_node_metapath": [
+        2,
+        2,
+        0,
+        6,
+        0,
+        2,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:MUSIC-and-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-and-MUSIC",
+        "-1:MUSIC-and-MUSIC"
+      ],
+      "index": 32,
+      "name": "union_invariant::MUSIC-and-MUSIC::+1:MUSIC-and-MUSIC__-1:MUSIC-and-MUSIC",
+      "semantic_node_metapath": [
+        2,
+        2,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-and-MUSIC",
+        "-1:MUSIC-and-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-for-SPORTS",
+        "-1:MUSIC-for-SPORTS"
+      ],
+      "index": 33,
+      "name": "union_invariant::MUSIC-for-SPORTS::+1:MUSIC-for-SPORTS__-1:MUSIC-for-SPORTS",
+      "semantic_node_metapath": [
+        2,
+        3,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-for-SPORTS",
+        "-1:MUSIC-for-SPORTS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 34,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION::+1:MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION__-1:MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+      "semantic_node_metapath": [
+        2,
+        6,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+        "-1:MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 35,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION::+1:MUSIC-in-BOOK-about-ORGANIZATION__+1:ORGANIZATION-and-ORGANIZATION__-1:ORGANIZATION-and-ORGANIZATION__-1:MUSIC-in-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        2,
+        6,
+        6,
+        6,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:MUSIC-in-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 36,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION-and-ORGANIZATION::+1:MUSIC-in-BOOK__+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-and-ORGANIZATION__-1:ORGANIZATION-and-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        2,
+        0,
+        6,
+        6,
+        6,
+        0,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 37,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS::+1:MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS__-1:MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        2,
+        7,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS",
+        "-1:MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 38,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS::+1:MUSIC-in-BOOK__+1:BOOK-about-ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION-for-BUSINESS__-1:MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        2,
+        0,
+        7,
+        0,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION-for-BUSINESS",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 39,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION-for-BUSINESS::+1:MUSIC-in-BOOK__+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS__-1:ORGANIZATION-for-BUSINESS__-1:BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        2,
+        0,
+        6,
+        7,
+        6,
+        0,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 40,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION::+1:MUSIC-in-BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        2,
+        6,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 41,
+      "name": "union_invariant::MUSIC-in-BOOK-about-ORGANIZATION::+1:MUSIC-in-BOOK__+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        2,
+        0,
+        6,
+        0,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 42,
+      "name": "union_invariant::MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION::+1:MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        2,
+        6,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 43,
+      "name": "union_invariant::MUSIC-in-BOOK-and-BOOK-about-ORGANIZATION::+1:MUSIC-in-BOOK__+1:BOOK-and-BOOK__+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:BOOK-and-BOOK__-1:MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        2,
+        0,
+        0,
+        6,
+        0,
+        0,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "index": 44,
+      "name": "union_invariant::MUSIC-in-BOOK::+1:MUSIC-in-BOOK__-1:MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        2,
+        0,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-in-FILM",
+        "-1:MUSIC-in-FILM"
+      ],
+      "index": 45,
+      "name": "union_invariant::MUSIC-in-FILM::+1:MUSIC-in-FILM__-1:MUSIC-in-FILM",
+      "semantic_node_metapath": [
+        2,
+        1,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-in-FILM",
+        "-1:MUSIC-in-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:MUSIC-on-LOCATION",
+        "-1:MUSIC-on-LOCATION"
+      ],
+      "index": 46,
+      "name": "union_invariant::MUSIC-on-LOCATION::+1:MUSIC-on-LOCATION__-1:MUSIC-on-LOCATION",
+      "semantic_node_metapath": [
+        2,
+        5,
+        2
+      ],
+      "semantic_signature": [
+        "+1:MUSIC-on-LOCATION",
+        "-1:MUSIC-on-LOCATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:SPORTS-and-SPORTS",
+        "-1:SPORTS-and-SPORTS"
+      ],
+      "index": 47,
+      "name": "union_invariant::SPORTS-and-SPORTS::+1:SPORTS-and-SPORTS__-1:SPORTS-and-SPORTS",
+      "semantic_node_metapath": [
+        3,
+        3,
+        3
+      ],
+      "semantic_signature": [
+        "+1:SPORTS-and-SPORTS",
+        "-1:SPORTS-and-SPORTS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:SPORTS-in-FILM",
+        "-1:SPORTS-in-FILM"
+      ],
+      "index": 48,
+      "name": "union_invariant::SPORTS-in-FILM::+1:SPORTS-in-FILM__-1:SPORTS-in-FILM",
+      "semantic_node_metapath": [
+        3,
+        1,
+        3
+      ],
+      "semantic_signature": [
+        "+1:SPORTS-in-FILM",
+        "-1:SPORTS-in-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:SPORTS-on-LOCATION",
+        "-1:SPORTS-on-LOCATION"
+      ],
+      "index": 49,
+      "name": "union_invariant::SPORTS-on-LOCATION::+1:SPORTS-on-LOCATION__-1:SPORTS-on-LOCATION",
+      "semantic_node_metapath": [
+        3,
+        5,
+        3
+      ],
+      "semantic_signature": [
+        "+1:SPORTS-on-LOCATION",
+        "-1:SPORTS-on-LOCATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-and-PEOPLE",
+        "-1:PEOPLE-and-PEOPLE"
+      ],
+      "index": 50,
+      "name": "union_invariant::PEOPLE-and-PEOPLE::+1:PEOPLE-and-PEOPLE__-1:PEOPLE-and-PEOPLE",
+      "semantic_node_metapath": [
+        4,
+        4,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-and-PEOPLE",
+        "-1:PEOPLE-and-PEOPLE"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-in-BUSINESS",
+        "-1:PEOPLE-in-BUSINESS"
+      ],
+      "index": 51,
+      "name": "union_invariant::PEOPLE-in-BUSINESS::+1:PEOPLE-in-BUSINESS__-1:PEOPLE-in-BUSINESS",
+      "semantic_node_metapath": [
+        4,
+        7,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-in-BUSINESS",
+        "-1:PEOPLE-in-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-in-ORGANIZATION",
+        "-1:PEOPLE-in-ORGANIZATION"
+      ],
+      "index": 52,
+      "name": "union_invariant::PEOPLE-in-ORGANIZATION::+1:PEOPLE-in-ORGANIZATION__-1:PEOPLE-in-ORGANIZATION",
+      "semantic_node_metapath": [
+        4,
+        6,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-in-ORGANIZATION",
+        "-1:PEOPLE-in-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-on-LOCATION",
+        "-1:PEOPLE-on-LOCATION"
+      ],
+      "index": 53,
+      "name": "union_invariant::PEOPLE-on-LOCATION::+1:PEOPLE-on-LOCATION__-1:PEOPLE-on-LOCATION",
+      "semantic_node_metapath": [
+        4,
+        5,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-on-LOCATION",
+        "-1:PEOPLE-on-LOCATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-to-BOOK",
+        "-1:PEOPLE-to-BOOK"
+      ],
+      "index": 54,
+      "name": "union_invariant::PEOPLE-to-BOOK::+1:PEOPLE-to-BOOK__-1:PEOPLE-to-BOOK",
+      "semantic_node_metapath": [
+        4,
+        0,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-to-BOOK",
+        "-1:PEOPLE-to-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-to-FILM",
+        "-1:PEOPLE-to-FILM"
+      ],
+      "index": 55,
+      "name": "union_invariant::PEOPLE-to-FILM::+1:PEOPLE-to-FILM__-1:PEOPLE-to-FILM",
+      "semantic_node_metapath": [
+        4,
+        1,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-to-FILM",
+        "-1:PEOPLE-to-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-to-MUSIC",
+        "-1:PEOPLE-to-MUSIC"
+      ],
+      "index": 56,
+      "name": "union_invariant::PEOPLE-to-MUSIC::+1:PEOPLE-to-MUSIC__-1:PEOPLE-to-MUSIC",
+      "semantic_node_metapath": [
+        4,
+        2,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-to-MUSIC",
+        "-1:PEOPLE-to-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:PEOPLE-to-SPORTS",
+        "-1:PEOPLE-to-SPORTS"
+      ],
+      "index": 57,
+      "name": "union_invariant::PEOPLE-to-SPORTS::+1:PEOPLE-to-SPORTS__-1:PEOPLE-to-SPORTS",
+      "semantic_node_metapath": [
+        4,
+        3,
+        4
+      ],
+      "semantic_signature": [
+        "+1:PEOPLE-to-SPORTS",
+        "-1:PEOPLE-to-SPORTS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:LOCATION-and-LOCATION",
+        "-1:LOCATION-and-LOCATION"
+      ],
+      "index": 58,
+      "name": "union_invariant::LOCATION-and-LOCATION::+1:LOCATION-and-LOCATION__-1:LOCATION-and-LOCATION",
+      "semantic_node_metapath": [
+        5,
+        5,
+        5
+      ],
+      "semantic_signature": [
+        "+1:LOCATION-and-LOCATION",
+        "-1:LOCATION-and-LOCATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:LOCATION-in-FILM",
+        "-1:LOCATION-in-FILM"
+      ],
+      "index": 59,
+      "name": "union_invariant::LOCATION-in-FILM::+1:LOCATION-in-FILM__-1:LOCATION-in-FILM",
+      "semantic_node_metapath": [
+        5,
+        1,
+        5
+      ],
+      "semantic_signature": [
+        "+1:LOCATION-in-FILM",
+        "-1:LOCATION-in-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "index": 60,
+      "name": "union_invariant::ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK::+1:ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK__-1:ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "index": 61,
+      "name": "union_invariant::ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK::+1:ORGANIZATION-and-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS-about-BOOK__-1:ORGANIZATION-for-BUSINESS-about-BOOK__-1:ORGANIZATION-and-ORGANIZATION",
+      "semantic_node_metapath": [
+        6,
+        6,
+        0,
+        6,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "index": 62,
+      "name": "union_invariant::ORGANIZATION-and-ORGANIZATION-for-BUSINESS-about-BOOK::+1:ORGANIZATION-and-ORGANIZATION__+1:ORGANIZATION-for-BUSINESS__+1:BUSINESS-about-BOOK__-1:BUSINESS-about-BOOK__-1:ORGANIZATION-for-BUSINESS__-1:ORGANIZATION-and-ORGANIZATION",
+      "semantic_node_metapath": [
+        6,
+        6,
+        7,
+        0,
+        7,
+        6,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "index": 63,
+      "name": "union_invariant::ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK::+1:ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK__-1:ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK",
+        "-1:ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "index": 64,
+      "name": "union_invariant::ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK::+1:ORGANIZATION-and-ORGANIZATION__+1:ORGANIZATION-to-MUSIC-in-BOOK__-1:ORGANIZATION-to-MUSIC-in-BOOK__-1:ORGANIZATION-and-ORGANIZATION",
+      "semantic_node_metapath": [
+        6,
+        6,
+        0,
+        6,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC-in-BOOK",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "index": 65,
+      "name": "union_invariant::ORGANIZATION-and-ORGANIZATION-to-MUSIC-in-BOOK::+1:ORGANIZATION-and-ORGANIZATION__+1:ORGANIZATION-to-MUSIC__+1:MUSIC-in-BOOK__-1:MUSIC-in-BOOK__-1:ORGANIZATION-to-MUSIC__-1:ORGANIZATION-and-ORGANIZATION",
+      "semantic_node_metapath": [
+        6,
+        6,
+        2,
+        0,
+        2,
+        6,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "index": 66,
+      "name": "union_invariant::ORGANIZATION-and-ORGANIZATION::+1:ORGANIZATION-and-ORGANIZATION__-1:ORGANIZATION-and-ORGANIZATION",
+      "semantic_node_metapath": [
+        6,
+        6,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 67,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK::+1:ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK__-1:ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 68,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK::+1:ORGANIZATION-for-BUSINESS-about-BOOK__+1:BOOK-and-BOOK__-1:BOOK-and-BOOK__-1:ORGANIZATION-for-BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        0,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 69,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-about-BOOK-and-BOOK::+1:ORGANIZATION-for-BUSINESS__+1:BUSINESS-about-BOOK__+1:BOOK-and-BOOK__-1:BOOK-and-BOOK__-1:BUSINESS-about-BOOK__-1:ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        6,
+        7,
+        0,
+        0,
+        0,
+        7,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 70,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-about-BOOK::+1:ORGANIZATION-for-BUSINESS-about-BOOK__-1:ORGANIZATION-for-BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 71,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-about-BOOK::+1:ORGANIZATION-for-BUSINESS__+1:BUSINESS-about-BOOK__-1:BUSINESS-about-BOOK__-1:ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        6,
+        7,
+        0,
+        7,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 72,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK::+1:ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK__-1:ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 73,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-about-MUSIC-in-BOOK::+1:ORGANIZATION-for-BUSINESS__+1:BUSINESS-about-MUSIC__+1:MUSIC-in-BOOK__-1:MUSIC-in-BOOK__-1:BUSINESS-about-MUSIC__-1:ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        6,
+        7,
+        2,
+        0,
+        2,
+        7,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:BUSINESS-about-MUSIC",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 74,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK::+1:ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK__-1:ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK",
+        "-1:ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 75,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS-and-BUSINESS-about-BOOK::+1:ORGANIZATION-for-BUSINESS__+1:BUSINESS-and-BUSINESS__+1:BUSINESS-about-BOOK__-1:BUSINESS-about-BOOK__-1:BUSINESS-and-BUSINESS__-1:ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        6,
+        7,
+        7,
+        0,
+        7,
+        7,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-and-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "index": 76,
+      "name": "union_invariant::ORGANIZATION-for-BUSINESS::+1:ORGANIZATION-for-BUSINESS__-1:ORGANIZATION-for-BUSINESS",
+      "semantic_node_metapath": [
+        6,
+        7,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-for-BUSINESS",
+        "-1:ORGANIZATION-for-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-in-FILM",
+        "-1:ORGANIZATION-in-FILM"
+      ],
+      "index": 77,
+      "name": "union_invariant::ORGANIZATION-in-FILM::+1:ORGANIZATION-in-FILM__-1:ORGANIZATION-in-FILM",
+      "semantic_node_metapath": [
+        6,
+        1,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-in-FILM",
+        "-1:ORGANIZATION-in-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-on-LOCATION",
+        "-1:ORGANIZATION-on-LOCATION"
+      ],
+      "index": 78,
+      "name": "union_invariant::ORGANIZATION-on-LOCATION::+1:ORGANIZATION-on-LOCATION__-1:ORGANIZATION-on-LOCATION",
+      "semantic_node_metapath": [
+        6,
+        5,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-on-LOCATION",
+        "-1:ORGANIZATION-on-LOCATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:MUSIC-and-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 79,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK::+1:ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK__-1:ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:MUSIC-and-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 80,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC-and-MUSIC-in-BOOK::+1:ORGANIZATION-to-MUSIC__+1:MUSIC-and-MUSIC__+1:MUSIC-in-BOOK__-1:MUSIC-in-BOOK__-1:MUSIC-and-MUSIC__-1:ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        6,
+        2,
+        2,
+        0,
+        2,
+        2,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-and-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:MUSIC-and-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 81,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK::+1:ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK__-1:ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK",
+        "-1:ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 82,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK::+1:ORGANIZATION-to-MUSIC-in-BOOK__+1:BOOK-and-BOOK__-1:BOOK-and-BOOK__-1:ORGANIZATION-to-MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        0,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:ORGANIZATION-to-MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 83,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC-in-BOOK-and-BOOK::+1:ORGANIZATION-to-MUSIC__+1:MUSIC-in-BOOK__+1:BOOK-and-BOOK__-1:BOOK-and-BOOK__-1:MUSIC-in-BOOK__-1:ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        6,
+        2,
+        0,
+        0,
+        0,
+        2,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-and-BOOK",
+        "-1:BOOK-and-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 84,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC-in-BOOK::+1:ORGANIZATION-to-MUSIC-in-BOOK__-1:ORGANIZATION-to-MUSIC-in-BOOK",
+      "semantic_node_metapath": [
+        6,
+        0,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC-in-BOOK"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 85,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC-in-BOOK::+1:ORGANIZATION-to-MUSIC__+1:MUSIC-in-BOOK__-1:MUSIC-in-BOOK__-1:ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        6,
+        2,
+        0,
+        2,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "-1:MUSIC-in-BOOK",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "index": 86,
+      "name": "union_invariant::ORGANIZATION-to-MUSIC::+1:ORGANIZATION-to-MUSIC__-1:ORGANIZATION-to-MUSIC",
+      "semantic_node_metapath": [
+        6,
+        2,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-MUSIC",
+        "-1:ORGANIZATION-to-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:ORGANIZATION-to-SPORTS",
+        "-1:ORGANIZATION-to-SPORTS"
+      ],
+      "index": 87,
+      "name": "union_invariant::ORGANIZATION-to-SPORTS::+1:ORGANIZATION-to-SPORTS__-1:ORGANIZATION-to-SPORTS",
+      "semantic_node_metapath": [
+        6,
+        3,
+        6
+      ],
+      "semantic_signature": [
+        "+1:ORGANIZATION-to-SPORTS",
+        "-1:ORGANIZATION-to-SPORTS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 88,
+      "name": "union_invariant::BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION::+1:BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION__-1:BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+      "semantic_node_metapath": [
+        7,
+        6,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 89,
+      "name": "union_invariant::BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION::+1:BUSINESS-about-BOOK-about-ORGANIZATION__+1:ORGANIZATION-and-ORGANIZATION__-1:ORGANIZATION-and-ORGANIZATION__-1:BUSINESS-about-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        7,
+        6,
+        6,
+        6,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 90,
+      "name": "union_invariant::BUSINESS-about-BOOK-about-ORGANIZATION-and-ORGANIZATION::+1:BUSINESS-about-BOOK__+1:BOOK-about-ORGANIZATION__+1:ORGANIZATION-and-ORGANIZATION__-1:ORGANIZATION-and-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        7,
+        0,
+        6,
+        6,
+        6,
+        0,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "+1:ORGANIZATION-and-ORGANIZATION",
+        "-1:ORGANIZATION-and-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 91,
+      "name": "union_invariant::BUSINESS-about-BOOK-about-ORGANIZATION::+1:BUSINESS-about-BOOK-about-ORGANIZATION__-1:BUSINESS-about-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        7,
+        6,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 92,
+      "name": "union_invariant::BUSINESS-about-BOOK-about-ORGANIZATION::+1:BUSINESS-about-BOOK__+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        7,
+        0,
+        6,
+        0,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 93,
+      "name": "union_invariant::BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION::+1:BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION__-1:BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        7,
+        6,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 94,
+      "name": "union_invariant::BUSINESS-about-BOOK-and-BOOK-about-ORGANIZATION::+1:BUSINESS-about-BOOK__+1:BOOK-and-BOOK__+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:BOOK-and-BOOK__-1:BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        7,
+        0,
+        0,
+        6,
+        0,
+        0,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-and-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-and-BOOK",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "index": 95,
+      "name": "union_invariant::BUSINESS-about-BOOK::+1:BUSINESS-about-BOOK__-1:BUSINESS-about-BOOK",
+      "semantic_node_metapath": [
+        7,
+        0,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-about-BOOK"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-FILM",
+        "-1:BUSINESS-about-FILM"
+      ],
+      "index": 96,
+      "name": "union_invariant::BUSINESS-about-FILM::+1:BUSINESS-about-FILM__-1:BUSINESS-about-FILM",
+      "semantic_node_metapath": [
+        7,
+        1,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-FILM",
+        "-1:BUSINESS-about-FILM"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:BUSINESS-about-MUSIC"
+      ],
+      "index": 97,
+      "name": "union_invariant::BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION::+1:BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION__-1:BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        7,
+        6,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:BUSINESS-about-MUSIC"
+      ],
+      "index": 98,
+      "name": "union_invariant::BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION::+1:BUSINESS-about-MUSIC__+1:MUSIC-in-BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK-about-ORGANIZATION__-1:BUSINESS-about-MUSIC",
+      "semantic_node_metapath": [
+        7,
+        2,
+        6,
+        2,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-MUSIC"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:BUSINESS-about-MUSIC"
+      ],
+      "index": 99,
+      "name": "union_invariant::BUSINESS-about-MUSIC-in-BOOK-about-ORGANIZATION::+1:BUSINESS-about-MUSIC__+1:MUSIC-in-BOOK__+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:MUSIC-in-BOOK__-1:BUSINESS-about-MUSIC",
+      "semantic_node_metapath": [
+        7,
+        2,
+        0,
+        6,
+        0,
+        2,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-MUSIC",
+        "+1:MUSIC-in-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:MUSIC-in-BOOK",
+        "-1:BUSINESS-about-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-MUSIC",
+        "-1:BUSINESS-about-MUSIC"
+      ],
+      "index": 100,
+      "name": "union_invariant::BUSINESS-about-MUSIC::+1:BUSINESS-about-MUSIC__-1:BUSINESS-about-MUSIC",
+      "semantic_node_metapath": [
+        7,
+        2,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-MUSIC",
+        "-1:BUSINESS-about-MUSIC"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-about-SPORTS",
+        "-1:BUSINESS-about-SPORTS"
+      ],
+      "index": 101,
+      "name": "union_invariant::BUSINESS-about-SPORTS::+1:BUSINESS-about-SPORTS__-1:BUSINESS-about-SPORTS",
+      "semantic_node_metapath": [
+        7,
+        3,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-about-SPORTS",
+        "-1:BUSINESS-about-SPORTS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-and-BUSINESS"
+      ],
+      "index": 102,
+      "name": "union_invariant::BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION::+1:BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION__-1:BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION",
+      "semantic_node_metapath": [
+        7,
+        6,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION"
+      ],
+      "source_variants": [
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-and-BUSINESS"
+      ],
+      "index": 103,
+      "name": "union_invariant::BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION::+1:BUSINESS-and-BUSINESS__+1:BUSINESS-about-BOOK-about-ORGANIZATION__-1:BUSINESS-about-BOOK-about-ORGANIZATION__-1:BUSINESS-and-BUSINESS",
+      "semantic_node_metapath": [
+        7,
+        7,
+        6,
+        7,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-and-BUSINESS"
+      ],
+      "source_variants": [
+        "exact_2"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-and-BUSINESS"
+      ],
+      "index": 104,
+      "name": "union_invariant::BUSINESS-and-BUSINESS-about-BOOK-about-ORGANIZATION::+1:BUSINESS-and-BUSINESS__+1:BUSINESS-about-BOOK__+1:BOOK-about-ORGANIZATION__-1:BOOK-about-ORGANIZATION__-1:BUSINESS-about-BOOK__-1:BUSINESS-and-BUSINESS",
+      "semantic_node_metapath": [
+        7,
+        7,
+        0,
+        6,
+        0,
+        7,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-and-BUSINESS",
+        "+1:BUSINESS-about-BOOK",
+        "+1:BOOK-about-ORGANIZATION",
+        "-1:BOOK-about-ORGANIZATION",
+        "-1:BUSINESS-about-BOOK",
+        "-1:BUSINESS-and-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-and-BUSINESS",
+        "-1:BUSINESS-and-BUSINESS"
+      ],
+      "index": 105,
+      "name": "union_invariant::BUSINESS-and-BUSINESS::+1:BUSINESS-and-BUSINESS__-1:BUSINESS-and-BUSINESS",
+      "semantic_node_metapath": [
+        7,
+        7,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-and-BUSINESS",
+        "-1:BUSINESS-and-BUSINESS"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    },
+    {
+      "dependency_signature": [
+        "+1:BUSINESS-on-LOCATION",
+        "-1:BUSINESS-on-LOCATION"
+      ],
+      "index": 106,
+      "name": "union_invariant::BUSINESS-on-LOCATION::+1:BUSINESS-on-LOCATION__-1:BUSINESS-on-LOCATION",
+      "semantic_node_metapath": [
+        7,
+        5,
+        7
+      ],
+      "semantic_signature": [
+        "+1:BUSINESS-on-LOCATION",
+        "-1:BUSINESS-on-LOCATION"
+      ],
+      "source_variants": [
+        "unchanged",
+        "exact_2",
+        "exact_3"
+      ]
+    }
+  ],
+  "up_to_variant": "exact_3"
+}

@@ -1,0 +1,3510 @@
+{
+  "name": "reduced",
+  "summary": {
+    "total_budget": 128,
+    "selected_count": 128,
+    "forward": {
+      "candidate_count": 526,
+      "selected_count": 24,
+      "reachable_center_nodes": 38887,
+      "covered_center_nodes": 38827,
+      "center_coverage_fraction": 0.9984570679147273
+    },
+    "inverse": {
+      "candidate_count": 1539,
+      "selected_count": 104,
+      "reachable_center_nodes": 8632,
+      "covered_center_nodes": 7599,
+      "center_coverage_fraction": 0.8803290083410565
+    },
+    "selected_endpoint_nodes": 39374,
+    "all_endpoint_nodes": 40060,
+    "endpoint_coverage_fraction": 0.9828756864702946,
+    "selected_endpoint_pair_sum": 333138,
+    "forward_coverage_target": 0.9984,
+    "selection_scope": "cumulative_up_to_considered_catalog",
+    "considered_variant": "universal_edges_3variant"
+  },
+  "selected_dependencies": [
+    {
+      "composition": [
+        "_also_see",
+        "_derivationally_related_form",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "2bc1d41e19c3d11c",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_also_see",
+      "shortcut_relation": "__transitive___also_see|||_derivationally_related_form|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 573,
+      "num_target_nodes": 1339,
+      "num_unique_endpoint_nodes": 1564,
+      "num_endpoint_pairs": 2325,
+      "source_target_balance": 802.5596234309623
+    },
+    {
+      "composition": [
+        "_derivationally_related_form",
+        "_derivationally_related_form",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "ddd1796b2a6b2a3f",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_derivationally_related_form",
+      "shortcut_relation": "__transitive___derivationally_related_form|||_derivationally_related_form|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 15916,
+      "num_target_nodes": 15905,
+      "num_unique_endpoint_nodes": 16323,
+      "num_endpoint_pairs": 79689,
+      "source_target_balance": 15910.498098739827
+    },
+    {
+      "composition": [
+        "_has_part",
+        "_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "7283184ff5a34a1e",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_has_part",
+      "shortcut_relation": "__transitive___has_part|||_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 1408,
+      "num_target_nodes": 553,
+      "num_unique_endpoint_nodes": 1899,
+      "num_endpoint_pairs": 2056,
+      "source_target_balance": 794.1091279959204
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "75eaba1d47dc66d0",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 26508,
+      "num_target_nodes": 1682,
+      "num_unique_endpoint_nodes": 27029,
+      "num_endpoint_pairs": 28450,
+      "source_target_balance": 3163.2817311103227
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "1949937ea1fc3a36",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 2376,
+      "num_target_nodes": 158,
+      "num_unique_endpoint_nodes": 2534,
+      "num_endpoint_pairs": 3506,
+      "source_target_balance": 296.2967640094712
+    },
+    {
+      "composition": [
+        "_member_meronym",
+        "_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "467a89a251f32af1",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_member_meronym",
+      "shortcut_relation": "__transitive___member_meronym|||_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 2667,
+      "num_target_nodes": 372,
+      "num_unique_endpoint_nodes": 3029,
+      "num_endpoint_pairs": 3498,
+      "source_target_balance": 652.9279368213228
+    },
+    {
+      "composition": [
+        "_member_of_domain_region",
+        "_instance_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "22a3b2aeef81e8b7",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_member_of_domain_region",
+      "shortcut_relation": "__transitive___member_of_domain_region|||_instance_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 85,
+      "num_target_nodes": 30,
+      "num_unique_endpoint_nodes": 115,
+      "num_endpoint_pairs": 128,
+      "source_target_balance": 44.34782608695652
+    },
+    {
+      "composition": [
+        "_member_of_domain_usage",
+        "_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "e4cfb5330be280a6",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_member_of_domain_usage",
+      "shortcut_relation": "__transitive___member_of_domain_usage|||_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 245,
+      "num_unique_endpoint_nodes": 265,
+      "num_endpoint_pairs": 314,
+      "source_target_balance": 36.9811320754717
+    },
+    {
+      "composition": [
+        "_similar_to",
+        "_similar_to",
+        "_similar_to"
+      ],
+      "dependency_id": "6b7e869a1ab8a79f",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_similar_to",
+      "shortcut_relation": "__transitive___similar_to|||_similar_to|||_similar_to",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 72,
+      "num_target_nodes": 71,
+      "num_unique_endpoint_nodes": 72,
+      "num_endpoint_pairs": 75,
+      "source_target_balance": 71.4965034965035
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_derivationally_related_form",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "651c2e9b31b3308b",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_derivationally_related_form|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 2156,
+      "num_target_nodes": 449,
+      "num_unique_endpoint_nodes": 2555,
+      "num_endpoint_pairs": 7443,
+      "source_target_balance": 743.2199616122841
+    },
+    {
+      "composition": [
+        "_verb_group",
+        "_verb_group",
+        "_verb_group"
+      ],
+      "dependency_id": "71617fe89f3e64e1",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_verb_group",
+      "shortcut_relation": "__transitive___verb_group|||_verb_group|||_verb_group",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 932,
+      "num_target_nodes": 934,
+      "num_unique_endpoint_nodes": 945,
+      "num_endpoint_pairs": 1238,
+      "source_target_balance": 932.9989281886388
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_derivationally_related_form",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "f699a5db00981b30",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_derivationally_related_form|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 17563,
+      "num_target_nodes": 9962,
+      "num_unique_endpoint_nodes": 21262,
+      "num_endpoint_pairs": 88364,
+      "source_target_balance": 12712.995894641235
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_has_part",
+        "_hypernym"
+      ],
+      "dependency_id": "aa732139d80d7925",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_has_part|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 2832,
+      "num_target_nodes": 561,
+      "num_unique_endpoint_nodes": 3330,
+      "num_endpoint_pairs": 5135,
+      "source_target_balance": 936.4880636604775
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_hypernym",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "d61a6f7462a48e74",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_hypernym|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 14215,
+      "num_target_nodes": 3677,
+      "num_unique_endpoint_nodes": 16168,
+      "num_endpoint_pairs": 35665,
+      "source_target_balance": 5842.67326179298
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_hypernym",
+        "_has_part"
+      ],
+      "dependency_id": "fee266ea964bac06",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_hypernym|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 3453,
+      "num_target_nodes": 506,
+      "num_unique_endpoint_nodes": 3902,
+      "num_endpoint_pairs": 7152,
+      "source_target_balance": 882.6562263197777
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "11f12acfce020470",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 1974,
+      "num_target_nodes": 136,
+      "num_unique_endpoint_nodes": 2100,
+      "num_endpoint_pairs": 2154,
+      "source_target_balance": 254.46824644549764
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_hypernym",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "ec5dfe55e8dacd81",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_hypernym|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 897,
+      "num_target_nodes": 255,
+      "num_unique_endpoint_nodes": 1152,
+      "num_endpoint_pairs": 3543,
+      "source_target_balance": 397.109375
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_synset_domain_topic_of",
+        "_hypernym"
+      ],
+      "dependency_id": "096d279cb117b3d8",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_synset_domain_topic_of|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 1681,
+      "num_target_nodes": 96,
+      "num_unique_endpoint_nodes": 1770,
+      "num_endpoint_pairs": 1783,
+      "source_target_balance": 181.6274620146314
+    },
+    {
+      "composition": [
+        "_has_part",
+        "_instance_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "cb40a2ecbca47ad8",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_has_part",
+      "shortcut_relation": "__transitive___has_part|||_instance_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 400,
+      "num_target_nodes": 83,
+      "num_unique_endpoint_nodes": 483,
+      "num_endpoint_pairs": 1119,
+      "source_target_balance": 137.47412008281574
+    },
+    {
+      "composition": [
+        "_member_meronym",
+        "_hypernym",
+        "_has_part"
+      ],
+      "dependency_id": "0f48ce42bec8066c",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_member_meronym",
+      "shortcut_relation": "__transitive___member_meronym|||_hypernym|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 476,
+      "num_target_nodes": 161,
+      "num_unique_endpoint_nodes": 637,
+      "num_endpoint_pairs": 733,
+      "source_target_balance": 240.6153846153846
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_derivationally_related_form",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "bf49b75b156d2f2e",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_derivationally_related_form|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 708,
+      "num_target_nodes": 581,
+      "num_unique_endpoint_nodes": 1286,
+      "num_endpoint_pairs": 3665,
+      "source_target_balance": 638.2435996896819
+    },
+    {
+      "composition": [
+        "_also_see",
+        "_also_see",
+        "_also_see"
+      ],
+      "dependency_id": "376c3349213a9711",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_also_see",
+      "shortcut_relation": "__transitive___also_see|||_also_see|||_also_see",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 484,
+      "num_target_nodes": 498,
+      "num_unique_endpoint_nodes": 520,
+      "num_endpoint_pairs": 2779,
+      "source_target_balance": 490.90020366598776
+    },
+    {
+      "composition": [
+        "_has_part",
+        "_has_part",
+        "_hypernym"
+      ],
+      "dependency_id": "0d279ebee534e082",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_has_part",
+      "shortcut_relation": "__transitive___has_part|||_has_part|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 372,
+      "num_target_nodes": 369,
+      "num_unique_endpoint_nodes": 730,
+      "num_endpoint_pairs": 828,
+      "source_target_balance": 370.49392712550605
+    },
+    {
+      "composition": [
+        "_derivationally_related_form",
+        "_hypernym",
+        "_hypernym"
+      ],
+      "dependency_id": "95a55f8ac18a93ed",
+      "uses_inverse_relation": false,
+      "family": "forward_only",
+      "inverse_signature": "FFF",
+      "first_relation": "_derivationally_related_form",
+      "shortcut_relation": "__transitive___derivationally_related_form|||_hypernym|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "no_changes",
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 12387,
+      "num_target_nodes": 2369,
+      "num_unique_endpoint_nodes": 13628,
+      "num_endpoint_pairs": 20628,
+      "source_target_balance": 3977.338438601247
+    },
+    {
+      "composition": [
+        "_also_see",
+        "_synset_domain_topic_of",
+        "_derivationally_related_form__inv"
+      ],
+      "dependency_id": "515b39ae47685fa9",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_also_see",
+      "shortcut_relation": "__transitive___also_see|||_synset_domain_topic_of|||_derivationally_related_form__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 18,
+      "num_target_nodes": 21,
+      "num_unique_endpoint_nodes": 38,
+      "num_endpoint_pairs": 32,
+      "source_target_balance": 19.384615384615383
+    },
+    {
+      "composition": [
+        "_also_see__inv",
+        "_verb_group__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "28cf9deec0e5c561",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_also_see__inv",
+      "shortcut_relation": "__transitive___also_see__inv|||_verb_group__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 39,
+      "num_target_nodes": 118,
+      "num_unique_endpoint_nodes": 154,
+      "num_endpoint_pairs": 623,
+      "source_target_balance": 58.62420382165605
+    },
+    {
+      "composition": [
+        "_derivationally_related_form",
+        "_member_of_domain_usage__inv",
+        "_hypernym"
+      ],
+      "dependency_id": "05fc34a6d802324b",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_derivationally_related_form",
+      "shortcut_relation": "__transitive___derivationally_related_form|||_member_of_domain_usage__inv|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 92,
+      "num_target_nodes": 9,
+      "num_unique_endpoint_nodes": 101,
+      "num_endpoint_pairs": 92,
+      "source_target_balance": 16.396039603960396
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_synset_domain_topic_of",
+        "_member_meronym"
+      ],
+      "dependency_id": "809f400dd071fab1",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_synset_domain_topic_of|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 87,
+      "num_target_nodes": 7,
+      "num_unique_endpoint_nodes": 94,
+      "num_endpoint_pairs": 89,
+      "source_target_balance": 12.957446808510639
+    },
+    {
+      "composition": [
+        "_has_part",
+        "_member_meronym__inv",
+        "_has_part"
+      ],
+      "dependency_id": "0f728675c4d91118",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_has_part",
+      "shortcut_relation": "__transitive___has_part|||_member_meronym__inv|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 25,
+      "num_target_nodes": 5,
+      "num_unique_endpoint_nodes": 29,
+      "num_endpoint_pairs": 25,
+      "source_target_balance": 8.333333333333334
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_member_meronym__inv",
+        "_has_part"
+      ],
+      "dependency_id": "8237ab6a028fbb21",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_member_meronym__inv|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 379,
+      "num_target_nodes": 6,
+      "num_unique_endpoint_nodes": 385,
+      "num_endpoint_pairs": 379,
+      "source_target_balance": 11.812987012987014
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_member_meronym__inv",
+        "_member_of_domain_usage__inv"
+      ],
+      "dependency_id": "3946b9d227b6c9ba",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_member_meronym__inv|||_member_of_domain_usage__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 363,
+      "num_target_nodes": 1,
+      "num_unique_endpoint_nodes": 364,
+      "num_endpoint_pairs": 363,
+      "source_target_balance": 1.9945054945054945
+    },
+    {
+      "composition": [
+        "_hypernym__inv",
+        "_member_of_domain_region__inv",
+        "_member_of_domain_usage"
+      ],
+      "dependency_id": "3151b014f75eca2e",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_hypernym__inv",
+      "shortcut_relation": "__transitive___hypernym__inv|||_member_of_domain_region__inv|||_member_of_domain_usage",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 303,
+      "num_target_nodes": 14,
+      "num_unique_endpoint_nodes": 315,
+      "num_endpoint_pairs": 4242,
+      "source_target_balance": 26.763406940063092
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_hypernym__inv",
+        "_has_part"
+      ],
+      "dependency_id": "7b90d642180b453d",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_hypernym__inv|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 334,
+      "num_target_nodes": 93,
+      "num_unique_endpoint_nodes": 421,
+      "num_endpoint_pairs": 1153,
+      "source_target_balance": 145.4894613583138
+    },
+    {
+      "composition": [
+        "_instance_hypernym__inv",
+        "_synset_domain_topic_of",
+        "_member_meronym"
+      ],
+      "dependency_id": "cb6216faa870817a",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_instance_hypernym__inv",
+      "shortcut_relation": "__transitive___instance_hypernym__inv|||_synset_domain_topic_of|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 18,
+      "num_target_nodes": 2,
+      "num_unique_endpoint_nodes": 20,
+      "num_endpoint_pairs": 18,
+      "source_target_balance": 3.6
+    },
+    {
+      "composition": [
+        "_member_meronym",
+        "_derivationally_related_form__inv",
+        "_member_meronym"
+      ],
+      "dependency_id": "2f5bebf0e08cc5dd",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_member_meronym",
+      "shortcut_relation": "__transitive___member_meronym|||_derivationally_related_form__inv|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 23,
+      "num_target_nodes": 29,
+      "num_unique_endpoint_nodes": 52,
+      "num_endpoint_pairs": 30,
+      "source_target_balance": 25.653846153846153
+    },
+    {
+      "composition": [
+        "_member_meronym__inv",
+        "_hypernym",
+        "_synset_domain_topic_of"
+      ],
+      "dependency_id": "ce29d2c47b17bcf1",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_meronym__inv",
+      "shortcut_relation": "__transitive___member_meronym__inv|||_hypernym|||_synset_domain_topic_of",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 590,
+      "num_target_nodes": 11,
+      "num_unique_endpoint_nodes": 601,
+      "num_endpoint_pairs": 590,
+      "source_target_balance": 21.597337770382694
+    },
+    {
+      "composition": [
+        "_member_of_domain_region",
+        "_synset_domain_topic_of",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "fff5cbd4a24fa682",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_member_of_domain_region",
+      "shortcut_relation": "__transitive___member_of_domain_region|||_synset_domain_topic_of|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 47,
+      "num_target_nodes": 1,
+      "num_unique_endpoint_nodes": 48,
+      "num_endpoint_pairs": 47,
+      "source_target_balance": 1.9583333333333333
+    },
+    {
+      "composition": [
+        "_member_of_domain_region__inv",
+        "_member_meronym__inv",
+        "_has_part"
+      ],
+      "dependency_id": "8f562cdc033ab38b",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_member_of_domain_region__inv",
+      "shortcut_relation": "__transitive___member_of_domain_region__inv|||_member_meronym__inv|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 613,
+      "num_target_nodes": 2,
+      "num_unique_endpoint_nodes": 615,
+      "num_endpoint_pairs": 613,
+      "source_target_balance": 3.986991869918699
+    },
+    {
+      "composition": [
+        "_member_of_domain_usage",
+        "_member_of_domain_region__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "6672b966ba68ce91",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_member_of_domain_usage",
+      "shortcut_relation": "__transitive___member_of_domain_usage|||_member_of_domain_region__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 6,
+      "num_target_nodes": 1,
+      "num_unique_endpoint_nodes": 7,
+      "num_endpoint_pairs": 6,
+      "source_target_balance": 1.7142857142857142
+    },
+    {
+      "composition": [
+        "_member_of_domain_usage__inv",
+        "_hypernym",
+        "_synset_domain_topic_of"
+      ],
+      "dependency_id": "c1d49f988bead4ee",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_of_domain_usage__inv",
+      "shortcut_relation": "__transitive___member_of_domain_usage__inv|||_hypernym|||_synset_domain_topic_of",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 125,
+      "num_target_nodes": 2,
+      "num_unique_endpoint_nodes": 127,
+      "num_endpoint_pairs": 125,
+      "source_target_balance": 3.937007874015748
+    },
+    {
+      "composition": [
+        "_similar_to",
+        "_derivationally_related_form__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "dc91ee8f89a202f8",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_similar_to",
+      "shortcut_relation": "__transitive___similar_to|||_derivationally_related_form__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 35,
+      "num_target_nodes": 107,
+      "num_unique_endpoint_nodes": 142,
+      "num_endpoint_pairs": 122,
+      "source_target_balance": 52.74647887323944
+    },
+    {
+      "composition": [
+        "_similar_to__inv",
+        "_hypernym",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "09dc1bc3426d692c",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_similar_to__inv",
+      "shortcut_relation": "__transitive___similar_to__inv|||_hypernym|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 22,
+      "num_target_nodes": 67,
+      "num_unique_endpoint_nodes": 89,
+      "num_endpoint_pairs": 74,
+      "source_target_balance": 33.12359550561798
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_hypernym__inv",
+        "_member_meronym"
+      ],
+      "dependency_id": "81d54a400817f8de",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_hypernym__inv|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 363,
+      "num_target_nodes": 21,
+      "num_unique_endpoint_nodes": 383,
+      "num_endpoint_pairs": 402,
+      "source_target_balance": 39.703125
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of__inv",
+        "_hypernym__inv",
+        "_has_part"
+      ],
+      "dependency_id": "fc3e892a53b8e958",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_synset_domain_topic_of__inv",
+      "shortcut_relation": "__transitive___synset_domain_topic_of__inv|||_hypernym__inv|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 26,
+      "num_target_nodes": 111,
+      "num_unique_endpoint_nodes": 137,
+      "num_endpoint_pairs": 128,
+      "source_target_balance": 42.13138686131387
+    },
+    {
+      "composition": [
+        "_verb_group",
+        "_synset_domain_topic_of",
+        "_derivationally_related_form__inv"
+      ],
+      "dependency_id": "66321b3b0e5dfd32",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_verb_group",
+      "shortcut_relation": "__transitive___verb_group|||_synset_domain_topic_of|||_derivationally_related_form__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 77,
+      "num_target_nodes": 49,
+      "num_unique_endpoint_nodes": 124,
+      "num_endpoint_pairs": 140,
+      "source_target_balance": 59.888888888888886
+    },
+    {
+      "composition": [
+        "_verb_group__inv",
+        "_also_see",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "90ae68631f5210fa",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_verb_group__inv",
+      "shortcut_relation": "__transitive___verb_group__inv|||_also_see|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 26,
+      "num_target_nodes": 128,
+      "num_unique_endpoint_nodes": 152,
+      "num_endpoint_pairs": 165,
+      "source_target_balance": 43.22077922077922
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_hypernym",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "a0a4fbf0f90a972b",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_hypernym|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 317,
+      "num_target_nodes": 13,
+      "num_unique_endpoint_nodes": 330,
+      "num_endpoint_pairs": 392,
+      "source_target_balance": 24.975757575757576
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_derivationally_related_form__inv",
+        "_verb_group"
+      ],
+      "dependency_id": "87bbf070d0c153ef",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_derivationally_related_form__inv|||_verb_group",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 151,
+      "num_target_nodes": 23,
+      "num_unique_endpoint_nodes": 173,
+      "num_endpoint_pairs": 200,
+      "source_target_balance": 39.91954022988506
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_derivationally_related_form__inv",
+        "_member_meronym__inv"
+      ],
+      "dependency_id": "f03e92848c30efcb",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_derivationally_related_form__inv|||_member_meronym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 219,
+      "num_target_nodes": 6,
+      "num_unique_endpoint_nodes": 223,
+      "num_endpoint_pairs": 220,
+      "source_target_balance": 11.68
+    },
+    {
+      "composition": [
+        "_member_meronym__inv",
+        "_derivationally_related_form",
+        "_synset_domain_topic_of"
+      ],
+      "dependency_id": "3e91118d1f25ca50",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_meronym__inv",
+      "shortcut_relation": "__transitive___member_meronym__inv|||_derivationally_related_form|||_synset_domain_topic_of",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 124,
+      "num_target_nodes": 8,
+      "num_unique_endpoint_nodes": 132,
+      "num_endpoint_pairs": 124,
+      "source_target_balance": 15.030303030303031
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_hypernym",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "464bcb5552bbbd78",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_hypernym|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 93,
+      "num_target_nodes": 334,
+      "num_unique_endpoint_nodes": 421,
+      "num_endpoint_pairs": 1153,
+      "source_target_balance": 145.4894613583138
+    },
+    {
+      "composition": [
+        "_member_of_domain_usage__inv",
+        "_hypernym__inv",
+        "_member_of_domain_usage"
+      ],
+      "dependency_id": "c267d2c58d5d40ac",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_member_of_domain_usage__inv",
+      "shortcut_relation": "__transitive___member_of_domain_usage__inv|||_hypernym__inv|||_member_of_domain_usage",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 87,
+      "num_target_nodes": 3,
+      "num_unique_endpoint_nodes": 90,
+      "num_endpoint_pairs": 97,
+      "source_target_balance": 5.8
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_similar_to__inv",
+        "_derivationally_related_form__inv"
+      ],
+      "dependency_id": "ef3efe7521ff4502",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_similar_to__inv|||_derivationally_related_form__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 65,
+      "num_target_nodes": 62,
+      "num_unique_endpoint_nodes": 72,
+      "num_endpoint_pairs": 122,
+      "source_target_balance": 63.46456692913386
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_has_part",
+        "_member_of_domain_usage__inv"
+      ],
+      "dependency_id": "0014ae7655e4e73a",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_has_part|||_member_of_domain_usage__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 238,
+      "num_target_nodes": 4,
+      "num_unique_endpoint_nodes": 242,
+      "num_endpoint_pairs": 238,
+      "source_target_balance": 7.867768595041323
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_hypernym",
+        "_has_part__inv"
+      ],
+      "dependency_id": "2c7095d393cafc53",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_hypernym|||_has_part__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 227,
+      "num_target_nodes": 10,
+      "num_unique_endpoint_nodes": 237,
+      "num_endpoint_pairs": 285,
+      "source_target_balance": 19.156118143459917
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_derivationally_related_form",
+        "_member_of_domain_usage__inv"
+      ],
+      "dependency_id": "aebfbdd5ff6f83ed",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_derivationally_related_form|||_member_of_domain_usage__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 173,
+      "num_target_nodes": 5,
+      "num_unique_endpoint_nodes": 178,
+      "num_endpoint_pairs": 173,
+      "source_target_balance": 9.719101123595506
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_has_part",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "e63d1373a4e569d6",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_has_part|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 217,
+      "num_target_nodes": 25,
+      "num_unique_endpoint_nodes": 242,
+      "num_endpoint_pairs": 457,
+      "source_target_balance": 44.83471074380165
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_hypernym__inv",
+        "_has_part__inv"
+      ],
+      "dependency_id": "3d8b2745e89d8fe0",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_hypernym__inv|||_has_part__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 209,
+      "num_target_nodes": 21,
+      "num_unique_endpoint_nodes": 230,
+      "num_endpoint_pairs": 291,
+      "source_target_balance": 38.165217391304346
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_synset_domain_topic_of",
+        "_has_part__inv"
+      ],
+      "dependency_id": "2a48655dbaf38f03",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_synset_domain_topic_of|||_has_part__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 141,
+      "num_target_nodes": 9,
+      "num_unique_endpoint_nodes": 150,
+      "num_endpoint_pairs": 141,
+      "source_target_balance": 16.92
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_member_meronym",
+        "_derivationally_related_form__inv"
+      ],
+      "dependency_id": "2cbfd09eb19ba97d",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_member_meronym|||_derivationally_related_form__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 152,
+      "num_target_nodes": 56,
+      "num_unique_endpoint_nodes": 206,
+      "num_endpoint_pairs": 293,
+      "source_target_balance": 81.84615384615384
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_also_see__inv",
+        "_verb_group__inv"
+      ],
+      "dependency_id": "26f51fb3821820b1",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_also_see__inv|||_verb_group__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 130,
+      "num_target_nodes": 23,
+      "num_unique_endpoint_nodes": 151,
+      "num_endpoint_pairs": 149,
+      "source_target_balance": 39.08496732026144
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_hypernym",
+        "_has_part__inv"
+      ],
+      "dependency_id": "e24b846bf97b2ae9",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_hypernym|||_has_part__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 138,
+      "num_target_nodes": 10,
+      "num_unique_endpoint_nodes": 147,
+      "num_endpoint_pairs": 140,
+      "source_target_balance": 18.64864864864865
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_derivationally_related_form",
+        "_similar_to__inv"
+      ],
+      "dependency_id": "54919f6ba6730e23",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_derivationally_related_form|||_similar_to__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 107,
+      "num_target_nodes": 35,
+      "num_unique_endpoint_nodes": 142,
+      "num_endpoint_pairs": 122,
+      "source_target_balance": 52.74647887323944
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_verb_group__inv",
+        "_also_see"
+      ],
+      "dependency_id": "78c2f5b3a7f82edf",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_verb_group__inv|||_also_see",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 110,
+      "num_target_nodes": 38,
+      "num_unique_endpoint_nodes": 145,
+      "num_endpoint_pairs": 615,
+      "source_target_balance": 56.486486486486484
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_has_part__inv",
+        "_instance_hypernym"
+      ],
+      "dependency_id": "5bf993e4f04f02bb",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_has_part__inv|||_instance_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 174,
+      "num_target_nodes": 6,
+      "num_unique_endpoint_nodes": 180,
+      "num_endpoint_pairs": 174,
+      "source_target_balance": 11.6
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_hypernym",
+        "_synset_domain_topic_of"
+      ],
+      "dependency_id": "3b688b9b0b435a5b",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_hypernym|||_synset_domain_topic_of",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 111,
+      "num_target_nodes": 26,
+      "num_unique_endpoint_nodes": 137,
+      "num_endpoint_pairs": 128,
+      "source_target_balance": 42.13138686131387
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_has_part__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "83168bf017acc6a1",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_has_part__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 133,
+      "num_target_nodes": 25,
+      "num_unique_endpoint_nodes": 158,
+      "num_endpoint_pairs": 264,
+      "source_target_balance": 42.08860759493671
+    },
+    {
+      "composition": [
+        "_member_meronym__inv",
+        "_instance_hypernym",
+        "_has_part__inv"
+      ],
+      "dependency_id": "dc6b933baff9ca22",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_member_meronym__inv",
+      "shortcut_relation": "__transitive___member_meronym__inv|||_instance_hypernym|||_has_part__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 69,
+      "num_target_nodes": 8,
+      "num_unique_endpoint_nodes": 77,
+      "num_endpoint_pairs": 69,
+      "source_target_balance": 14.337662337662337
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_hypernym__inv",
+        "_similar_to"
+      ],
+      "dependency_id": "5d4ebe12e696b284",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_hypernym__inv|||_similar_to",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 67,
+      "num_target_nodes": 22,
+      "num_unique_endpoint_nodes": 89,
+      "num_endpoint_pairs": 74,
+      "source_target_balance": 33.12359550561798
+    },
+    {
+      "composition": [
+        "_member_of_domain_usage__inv",
+        "_synset_domain_topic_of__inv",
+        "_hypernym"
+      ],
+      "dependency_id": "5b153f58c53b0778",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_member_of_domain_usage__inv",
+      "shortcut_relation": "__transitive___member_of_domain_usage__inv|||_synset_domain_topic_of__inv|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 52,
+      "num_target_nodes": 26,
+      "num_unique_endpoint_nodes": 77,
+      "num_endpoint_pairs": 75,
+      "source_target_balance": 34.666666666666664
+    },
+    {
+      "composition": [
+        "_derivationally_related_form",
+        "_member_meronym__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "748de2052bdcfe93",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_derivationally_related_form",
+      "shortcut_relation": "__transitive___derivationally_related_form|||_member_meronym__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 56,
+      "num_target_nodes": 152,
+      "num_unique_endpoint_nodes": 206,
+      "num_endpoint_pairs": 293,
+      "source_target_balance": 81.84615384615384
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_synset_domain_topic_of__inv",
+        "_also_see"
+      ],
+      "dependency_id": "95377ddb4348a346",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_synset_domain_topic_of__inv|||_also_see",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 45,
+      "num_target_nodes": 15,
+      "num_unique_endpoint_nodes": 60,
+      "num_endpoint_pairs": 65,
+      "source_target_balance": 22.5
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_derivationally_related_form__inv",
+        "_member_of_domain_region__inv"
+      ],
+      "dependency_id": "5311c36572d4b4aa",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_derivationally_related_form__inv|||_member_of_domain_region__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 62,
+      "num_target_nodes": 3,
+      "num_unique_endpoint_nodes": 65,
+      "num_endpoint_pairs": 62,
+      "source_target_balance": 5.723076923076923
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_has_part__inv",
+        "_member_meronym"
+      ],
+      "dependency_id": "d0e71650a8aefac2",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_has_part__inv|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 46,
+      "num_target_nodes": 19,
+      "num_unique_endpoint_nodes": 61,
+      "num_endpoint_pairs": 85,
+      "source_target_balance": 26.892307692307693
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_synset_domain_topic_of__inv",
+        "_verb_group__inv"
+      ],
+      "dependency_id": "58c2f51f29e77e49",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_synset_domain_topic_of__inv|||_verb_group__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 51,
+      "num_target_nodes": 77,
+      "num_unique_endpoint_nodes": 126,
+      "num_endpoint_pairs": 130,
+      "source_target_balance": 61.359375
+    },
+    {
+      "composition": [
+        "_derivationally_related_form",
+        "_instance_hypernym__inv",
+        "_derivationally_related_form__inv"
+      ],
+      "dependency_id": "820d17870c245b59",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_derivationally_related_form",
+      "shortcut_relation": "__transitive___derivationally_related_form|||_instance_hypernym__inv|||_derivationally_related_form__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 44,
+      "num_target_nodes": 23,
+      "num_unique_endpoint_nodes": 67,
+      "num_endpoint_pairs": 58,
+      "source_target_balance": 30.208955223880597
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_has_part__inv",
+        "_member_meronym"
+      ],
+      "dependency_id": "a940ffbcd7494b84",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_has_part__inv|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 47,
+      "num_target_nodes": 4,
+      "num_unique_endpoint_nodes": 51,
+      "num_endpoint_pairs": 47,
+      "source_target_balance": 7.372549019607843
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_has_part__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "e942e56736eb52e4",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_has_part__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 69,
+      "num_target_nodes": 18,
+      "num_unique_endpoint_nodes": 87,
+      "num_endpoint_pairs": 263,
+      "source_target_balance": 28.551724137931036
+    },
+    {
+      "composition": [
+        "_member_of_domain_region__inv",
+        "_instance_hypernym",
+        "_has_part"
+      ],
+      "dependency_id": "398e51e6dc82b569",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_of_domain_region__inv",
+      "shortcut_relation": "__transitive___member_of_domain_region__inv|||_instance_hypernym|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 58,
+      "num_target_nodes": 6,
+      "num_unique_endpoint_nodes": 64,
+      "num_endpoint_pairs": 64,
+      "source_target_balance": 10.875
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_hypernym__inv",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "f34ae349d4d2eb30",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_hypernym__inv|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 38,
+      "num_target_nodes": 8,
+      "num_unique_endpoint_nodes": 46,
+      "num_endpoint_pairs": 47,
+      "source_target_balance": 13.217391304347826
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_member_of_domain_usage__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "1b082c8679acfecd",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_member_of_domain_usage__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 39,
+      "num_target_nodes": 5,
+      "num_unique_endpoint_nodes": 44,
+      "num_endpoint_pairs": 87,
+      "source_target_balance": 8.863636363636363
+    },
+    {
+      "composition": [
+        "_hypernym__inv",
+        "_member_of_domain_usage__inv",
+        "_synset_domain_topic_of__inv"
+      ],
+      "dependency_id": "7076af4c08cc1495",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_hypernym__inv",
+      "shortcut_relation": "__transitive___hypernym__inv|||_member_of_domain_usage__inv|||_synset_domain_topic_of__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 35,
+      "num_target_nodes": 2,
+      "num_unique_endpoint_nodes": 37,
+      "num_endpoint_pairs": 35,
+      "source_target_balance": 3.7837837837837838
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_verb_group__inv",
+        "_also_see__inv"
+      ],
+      "dependency_id": "bd0830c916476d7f",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_verb_group__inv|||_also_see__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 44,
+      "num_target_nodes": 14,
+      "num_unique_endpoint_nodes": 58,
+      "num_endpoint_pairs": 49,
+      "source_target_balance": 21.24137931034483
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_member_of_domain_usage__inv",
+        "_hypernym"
+      ],
+      "dependency_id": "d0fa745e700c7e4e",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_member_of_domain_usage__inv|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 30,
+      "num_target_nodes": 4,
+      "num_unique_endpoint_nodes": 34,
+      "num_endpoint_pairs": 30,
+      "source_target_balance": 7.0588235294117645
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_has_part__inv",
+        "_synset_domain_topic_of"
+      ],
+      "dependency_id": "da160c874960f838",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_has_part__inv|||_synset_domain_topic_of",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 39,
+      "num_target_nodes": 17,
+      "num_unique_endpoint_nodes": 56,
+      "num_endpoint_pairs": 42,
+      "source_target_balance": 23.678571428571427
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_member_meronym__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "d9c7cdb0adad2dcc",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_member_meronym__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 31,
+      "num_target_nodes": 14,
+      "num_unique_endpoint_nodes": 45,
+      "num_endpoint_pairs": 210,
+      "source_target_balance": 19.288888888888888
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_derivationally_related_form__inv",
+        "_also_see"
+      ],
+      "dependency_id": "13b8b0ab7ddbe6bb",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_derivationally_related_form__inv|||_also_see",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 61,
+      "num_target_nodes": 7,
+      "num_unique_endpoint_nodes": 67,
+      "num_endpoint_pairs": 79,
+      "source_target_balance": 12.558823529411764
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_member_of_domain_region__inv",
+        "_member_of_domain_usage"
+      ],
+      "dependency_id": "c8224fae15b99488",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_member_of_domain_region__inv|||_member_of_domain_usage",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 34,
+      "num_target_nodes": 14,
+      "num_unique_endpoint_nodes": 48,
+      "num_endpoint_pairs": 476,
+      "source_target_balance": 19.833333333333332
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_member_of_domain_region__inv",
+        "_derivationally_related_form__inv"
+      ],
+      "dependency_id": "9f0ea4dde76df011",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_member_of_domain_region__inv|||_derivationally_related_form__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 39,
+      "num_target_nodes": 3,
+      "num_unique_endpoint_nodes": 42,
+      "num_endpoint_pairs": 39,
+      "source_target_balance": 5.571428571428571
+    },
+    {
+      "composition": [
+        "_member_meronym__inv",
+        "_synset_domain_topic_of",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "d0bf0b17fdcdc8cc",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_meronym__inv",
+      "shortcut_relation": "__transitive___member_meronym__inv|||_synset_domain_topic_of|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 79,
+      "num_target_nodes": 12,
+      "num_unique_endpoint_nodes": 89,
+      "num_endpoint_pairs": 102,
+      "source_target_balance": 20.835164835164836
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_derivationally_related_form",
+        "_member_of_domain_usage__inv"
+      ],
+      "dependency_id": "56d01257fe633422",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_derivationally_related_form|||_member_of_domain_usage__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 23,
+      "num_target_nodes": 3,
+      "num_unique_endpoint_nodes": 26,
+      "num_endpoint_pairs": 23,
+      "source_target_balance": 5.3076923076923075
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_also_see__inv",
+        "_synset_domain_topic_of"
+      ],
+      "dependency_id": "ede9a93c50264226",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_also_see__inv|||_synset_domain_topic_of",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 27,
+      "num_target_nodes": 7,
+      "num_unique_endpoint_nodes": 34,
+      "num_endpoint_pairs": 27,
+      "source_target_balance": 11.117647058823529
+    },
+    {
+      "composition": [
+        "_derivationally_related_form",
+        "_instance_hypernym",
+        "_has_part__inv"
+      ],
+      "dependency_id": "73e5e01bfa5c4e40",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_derivationally_related_form",
+      "shortcut_relation": "__transitive___derivationally_related_form|||_instance_hypernym|||_has_part__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 25,
+      "num_target_nodes": 8,
+      "num_unique_endpoint_nodes": 33,
+      "num_endpoint_pairs": 25,
+      "source_target_balance": 12.121212121212121
+    },
+    {
+      "composition": [
+        "_hypernym__inv",
+        "_has_part__inv",
+        "_member_of_domain_usage__inv"
+      ],
+      "dependency_id": "c66ccf1da8839ecf",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_hypernym__inv",
+      "shortcut_relation": "__transitive___hypernym__inv|||_has_part__inv|||_member_of_domain_usage__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 23,
+      "num_target_nodes": 5,
+      "num_unique_endpoint_nodes": 28,
+      "num_endpoint_pairs": 23,
+      "source_target_balance": 8.214285714285714
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_member_meronym__inv",
+        "_instance_hypernym"
+      ],
+      "dependency_id": "b7e938bd5a41155c",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_member_meronym__inv|||_instance_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 175,
+      "num_target_nodes": 1,
+      "num_unique_endpoint_nodes": 176,
+      "num_endpoint_pairs": 175,
+      "source_target_balance": 1.9886363636363635
+    },
+    {
+      "composition": [
+        "_hypernym__inv",
+        "_synset_domain_topic_of",
+        "_member_of_domain_usage"
+      ],
+      "dependency_id": "1ec2ba5f17585547",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_hypernym__inv",
+      "shortcut_relation": "__transitive___hypernym__inv|||_synset_domain_topic_of|||_member_of_domain_usage",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 26,
+      "num_target_nodes": 52,
+      "num_unique_endpoint_nodes": 77,
+      "num_endpoint_pairs": 75,
+      "source_target_balance": 34.666666666666664
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_has_part",
+        "_synset_domain_topic_of__inv"
+      ],
+      "dependency_id": "916f49ed3f8c51d4",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_has_part|||_synset_domain_topic_of__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 25,
+      "num_target_nodes": 133,
+      "num_unique_endpoint_nodes": 158,
+      "num_endpoint_pairs": 264,
+      "source_target_balance": 42.08860759493671
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_hypernym",
+        "_member_of_domain_usage"
+      ],
+      "dependency_id": "a7e449745e62c965",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_hypernym|||_member_of_domain_usage",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 43,
+      "num_unique_endpoint_nodes": 63,
+      "num_endpoint_pairs": 172,
+      "source_target_balance": 27.3015873015873
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_synset_domain_topic_of__inv",
+        "_member_of_domain_region__inv"
+      ],
+      "dependency_id": "e1f85f77bbbadb42",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_synset_domain_topic_of__inv|||_member_of_domain_region__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 33,
+      "num_target_nodes": 8,
+      "num_unique_endpoint_nodes": 41,
+      "num_endpoint_pairs": 38,
+      "source_target_balance": 12.878048780487806
+    },
+    {
+      "composition": [
+        "_instance_hypernym",
+        "_derivationally_related_form__inv",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "3ac54d85f52a2e9f",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FII",
+      "first_relation": "_instance_hypernym",
+      "shortcut_relation": "__transitive___instance_hypernym|||_derivationally_related_form__inv|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 20,
+      "num_unique_endpoint_nodes": 20,
+      "num_endpoint_pairs": 48,
+      "source_target_balance": 20.0
+    },
+    {
+      "composition": [
+        "_verb_group__inv",
+        "_derivationally_related_form__inv",
+        "_synset_domain_topic_of__inv"
+      ],
+      "dependency_id": "f6ff0478a0a965f1",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_verb_group__inv",
+      "shortcut_relation": "__transitive___verb_group__inv|||_derivationally_related_form__inv|||_synset_domain_topic_of__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 28,
+      "num_target_nodes": 160,
+      "num_unique_endpoint_nodes": 187,
+      "num_endpoint_pairs": 219,
+      "source_target_balance": 47.659574468085104
+    },
+    {
+      "composition": [
+        "_member_of_domain_usage__inv",
+        "_derivationally_related_form__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "d8f8618634295a8d",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_member_of_domain_usage__inv",
+      "shortcut_relation": "__transitive___member_of_domain_usage__inv|||_derivationally_related_form__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 35,
+      "num_target_nodes": 9,
+      "num_unique_endpoint_nodes": 44,
+      "num_endpoint_pairs": 134,
+      "source_target_balance": 14.318181818181818
+    },
+    {
+      "composition": [
+        "_also_see__inv",
+        "_hypernym__inv",
+        "_member_meronym__inv"
+      ],
+      "dependency_id": "093c76d8deecffe1",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_also_see__inv",
+      "shortcut_relation": "__transitive___also_see__inv|||_hypernym__inv|||_member_meronym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 30,
+      "num_target_nodes": 5,
+      "num_unique_endpoint_nodes": 35,
+      "num_endpoint_pairs": 30,
+      "source_target_balance": 8.571428571428571
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_member_meronym__inv",
+        "_hypernym__inv"
+      ],
+      "dependency_id": "e408293e522ee6a6",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_member_meronym__inv|||_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 37,
+      "num_unique_endpoint_nodes": 57,
+      "num_endpoint_pairs": 63,
+      "source_target_balance": 25.964912280701753
+    },
+    {
+      "composition": [
+        "_hypernym__inv",
+        "_similar_to",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "2c9a03dd41776cc9",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_hypernym__inv",
+      "shortcut_relation": "__transitive___hypernym__inv|||_similar_to|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 22,
+      "num_target_nodes": 37,
+      "num_unique_endpoint_nodes": 59,
+      "num_endpoint_pairs": 39,
+      "source_target_balance": 27.593220338983052
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_derivationally_related_form__inv",
+        "_instance_hypernym"
+      ],
+      "dependency_id": "df6cb14ac51d22f7",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_derivationally_related_form__inv|||_instance_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 27,
+      "num_target_nodes": 7,
+      "num_unique_endpoint_nodes": 34,
+      "num_endpoint_pairs": 27,
+      "source_target_balance": 11.117647058823529
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_member_meronym",
+        "_synset_domain_topic_of__inv"
+      ],
+      "dependency_id": "47f552687fcd14d5",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_member_meronym|||_synset_domain_topic_of__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 4,
+      "num_unique_endpoint_nodes": 24,
+      "num_endpoint_pairs": 24,
+      "source_target_balance": 6.666666666666667
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_hypernym",
+        "_member_of_domain_usage__inv"
+      ],
+      "dependency_id": "7f7955a2235114c8",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_hypernym|||_member_of_domain_usage__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 25,
+      "num_target_nodes": 1,
+      "num_unique_endpoint_nodes": 26,
+      "num_endpoint_pairs": 25,
+      "source_target_balance": 1.9230769230769231
+    },
+    {
+      "composition": [
+        "_hypernym",
+        "_has_part",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "e44d900eec901c2c",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_hypernym",
+      "shortcut_relation": "__transitive___hypernym|||_has_part|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 18,
+      "num_target_nodes": 69,
+      "num_unique_endpoint_nodes": 87,
+      "num_endpoint_pairs": 263,
+      "source_target_balance": 28.551724137931036
+    },
+    {
+      "composition": [
+        "_derivationally_related_form",
+        "_member_of_domain_region__inv",
+        "_member_meronym"
+      ],
+      "dependency_id": "b5ab0458c4cc8529",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_derivationally_related_form",
+      "shortcut_relation": "__transitive___derivationally_related_form|||_member_of_domain_region__inv|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 18,
+      "num_target_nodes": 15,
+      "num_unique_endpoint_nodes": 33,
+      "num_endpoint_pairs": 25,
+      "source_target_balance": 16.363636363636363
+    },
+    {
+      "composition": [
+        "_has_part",
+        "_member_of_domain_region__inv",
+        "_member_of_domain_usage"
+      ],
+      "dependency_id": "afe8cf1fa3760584",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_has_part",
+      "shortcut_relation": "__transitive___has_part|||_member_of_domain_region__inv|||_member_of_domain_usage",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 14,
+      "num_unique_endpoint_nodes": 34,
+      "num_endpoint_pairs": 280,
+      "source_target_balance": 16.470588235294116
+    },
+    {
+      "composition": [
+        "_member_meronym__inv",
+        "_hypernym",
+        "_synset_domain_topic_of__inv"
+      ],
+      "dependency_id": "3b7e7af0fc77b18e",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_member_meronym__inv",
+      "shortcut_relation": "__transitive___member_meronym__inv|||_hypernym|||_synset_domain_topic_of__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 21,
+      "num_target_nodes": 363,
+      "num_unique_endpoint_nodes": 383,
+      "num_endpoint_pairs": 402,
+      "source_target_balance": 39.703125
+    },
+    {
+      "composition": [
+        "_has_part",
+        "_hypernym",
+        "_synset_domain_topic_of__inv"
+      ],
+      "dependency_id": "462303a6d4773736",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FFI",
+      "first_relation": "_has_part",
+      "shortcut_relation": "__transitive___has_part|||_hypernym|||_synset_domain_topic_of__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 21,
+      "num_target_nodes": 209,
+      "num_unique_endpoint_nodes": 230,
+      "num_endpoint_pairs": 291,
+      "source_target_balance": 38.165217391304346
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_member_meronym",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "f34bdfda36f0f79f",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_member_meronym|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 28,
+      "num_unique_endpoint_nodes": 48,
+      "num_endpoint_pairs": 54,
+      "source_target_balance": 23.333333333333332
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_synset_domain_topic_of__inv",
+        "_verb_group__inv"
+      ],
+      "dependency_id": "c99cb9acd4b72884",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "III",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_synset_domain_topic_of__inv|||_verb_group__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 21,
+      "num_target_nodes": 32,
+      "num_unique_endpoint_nodes": 53,
+      "num_endpoint_pairs": 53,
+      "source_target_balance": 25.358490566037737
+    },
+    {
+      "composition": [
+        "_member_meronym__inv",
+        "_instance_hypernym",
+        "_has_part"
+      ],
+      "dependency_id": "3d0640c87640c647",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_meronym__inv",
+      "shortcut_relation": "__transitive___member_meronym__inv|||_instance_hypernym|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 15,
+      "num_target_nodes": 7,
+      "num_unique_endpoint_nodes": 22,
+      "num_endpoint_pairs": 21,
+      "source_target_balance": 9.545454545454545
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_member_meronym__inv",
+        "_synset_domain_topic_of"
+      ],
+      "dependency_id": "253579db3d798d14",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_member_meronym__inv|||_synset_domain_topic_of",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 21,
+      "num_target_nodes": 2,
+      "num_unique_endpoint_nodes": 23,
+      "num_endpoint_pairs": 21,
+      "source_target_balance": 3.652173913043478
+    },
+    {
+      "composition": [
+        "_member_of_domain_region__inv",
+        "_instance_hypernym",
+        "_derivationally_related_form"
+      ],
+      "dependency_id": "4017255fdafe3689",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_of_domain_region__inv",
+      "shortcut_relation": "__transitive___member_of_domain_region__inv|||_instance_hypernym|||_derivationally_related_form",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 31,
+      "num_target_nodes": 4,
+      "num_unique_endpoint_nodes": 35,
+      "num_endpoint_pairs": 31,
+      "source_target_balance": 7.085714285714285
+    },
+    {
+      "composition": [
+        "_member_of_domain_region__inv",
+        "_member_meronym",
+        "_synset_domain_topic_of__inv"
+      ],
+      "dependency_id": "d7088937bba4296e",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_member_of_domain_region__inv",
+      "shortcut_relation": "__transitive___member_of_domain_region__inv|||_member_meronym|||_synset_domain_topic_of__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 19,
+      "num_target_nodes": 1,
+      "num_unique_endpoint_nodes": 20,
+      "num_endpoint_pairs": 19,
+      "source_target_balance": 1.9
+    },
+    {
+      "composition": [
+        "_hypernym__inv",
+        "_member_of_domain_usage__inv",
+        "_member_of_domain_region"
+      ],
+      "dependency_id": "7ced3af59a32e935",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_hypernym__inv",
+      "shortcut_relation": "__transitive___hypernym__inv|||_member_of_domain_usage__inv|||_member_of_domain_region",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 13,
+      "num_target_nodes": 442,
+      "num_unique_endpoint_nodes": 455,
+      "num_endpoint_pairs": 5746,
+      "source_target_balance": 25.257142857142856
+    },
+    {
+      "composition": [
+        "_derivationally_related_form__inv",
+        "_instance_hypernym",
+        "_derivationally_related_form__inv"
+      ],
+      "dependency_id": "f8b6c9e354abc479",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_derivationally_related_form__inv",
+      "shortcut_relation": "__transitive___derivationally_related_form__inv|||_instance_hypernym|||_derivationally_related_form__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 23,
+      "num_target_nodes": 44,
+      "num_unique_endpoint_nodes": 67,
+      "num_endpoint_pairs": 58,
+      "source_target_balance": 30.208955223880597
+    },
+    {
+      "composition": [
+        "_synset_domain_topic_of",
+        "_has_part__inv",
+        "_hypernym"
+      ],
+      "dependency_id": "6cf29641e002583b",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "FIF",
+      "first_relation": "_synset_domain_topic_of",
+      "shortcut_relation": "__transitive___synset_domain_topic_of|||_has_part__inv|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 102,
+      "num_target_nodes": 12,
+      "num_unique_endpoint_nodes": 114,
+      "num_endpoint_pairs": 102,
+      "source_target_balance": 21.473684210526315
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_hypernym",
+        "_member_meronym"
+      ],
+      "dependency_id": "1060f2f8d8eaecb5",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_hypernym|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 29,
+      "num_target_nodes": 10,
+      "num_unique_endpoint_nodes": 38,
+      "num_endpoint_pairs": 29,
+      "source_target_balance": 14.871794871794872
+    },
+    {
+      "composition": [
+        "_instance_hypernym__inv",
+        "_member_meronym__inv",
+        "_has_part"
+      ],
+      "dependency_id": "c99127074f4de26a",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_instance_hypernym__inv",
+      "shortcut_relation": "__transitive___instance_hypernym__inv|||_member_meronym__inv|||_has_part",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 14,
+      "num_target_nodes": 6,
+      "num_unique_endpoint_nodes": 20,
+      "num_endpoint_pairs": 14,
+      "source_target_balance": 8.4
+    },
+    {
+      "composition": [
+        "_member_of_domain_usage__inv",
+        "_member_of_domain_region",
+        "_hypernym"
+      ],
+      "dependency_id": "3df33122829bfd08",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFF",
+      "first_relation": "_member_of_domain_usage__inv",
+      "shortcut_relation": "__transitive___member_of_domain_usage__inv|||_member_of_domain_region|||_hypernym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 14,
+      "num_target_nodes": 303,
+      "num_unique_endpoint_nodes": 315,
+      "num_endpoint_pairs": 4242,
+      "source_target_balance": 26.763406940063092
+    },
+    {
+      "composition": [
+        "_has_part__inv",
+        "_hypernym__inv",
+        "_member_meronym"
+      ],
+      "dependency_id": "fdab8a8078c5e314",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IIF",
+      "first_relation": "_has_part__inv",
+      "shortcut_relation": "__transitive___has_part__inv|||_hypernym__inv|||_member_meronym",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 20,
+      "num_target_nodes": 15,
+      "num_unique_endpoint_nodes": 35,
+      "num_endpoint_pairs": 28,
+      "source_target_balance": 17.142857142857142
+    },
+    {
+      "composition": [
+        "_member_meronym__inv",
+        "_hypernym",
+        "_instance_hypernym__inv"
+      ],
+      "dependency_id": "e083456645cd40b8",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_member_meronym__inv",
+      "shortcut_relation": "__transitive___member_meronym__inv|||_hypernym|||_instance_hypernym__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 17,
+      "num_target_nodes": 14,
+      "num_unique_endpoint_nodes": 29,
+      "num_endpoint_pairs": 28,
+      "source_target_balance": 15.35483870967742
+    },
+    {
+      "composition": [
+        "_instance_hypernym__inv",
+        "_synset_domain_topic_of",
+        "_has_part__inv"
+      ],
+      "dependency_id": "255c1371238d19d3",
+      "uses_inverse_relation": true,
+      "family": "inverse_enabled",
+      "inverse_signature": "IFI",
+      "first_relation": "_instance_hypernym__inv",
+      "shortcut_relation": "__transitive___instance_hypernym__inv|||_synset_domain_topic_of|||_has_part__inv",
+      "has_direct_in_variant": false,
+      "source_variants": [
+        "all_inverse_edges",
+        "universal_edges"
+      ],
+      "direct_source_variants": [
+        "universal_edges"
+      ],
+      "shortcut_in_considered": true,
+      "num_source_nodes": 13,
+      "num_target_nodes": 2,
+      "num_unique_endpoint_nodes": 15,
+      "num_endpoint_pairs": 13,
+      "source_target_balance": 3.466666666666667
+    }
+  ]
+}

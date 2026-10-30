@@ -1,0 +1,17 @@
+# ULTRA zero-shot evaluation (tested with exactly these versions). Python 3.11, CUDA 12.4.
+#   pip install -r requirements.txt
+# The same torch / PyG builds as GNN/envs/gnn.txt, so one environment can serve both folders.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.4.0
+
+--find-links https://data.pyg.org/whl/torch-2.4.0+cu124.html
+torch-scatter==2.1.2
+torch-geometric==2.8.0.post1
+
+numpy==2.2.2
+scipy==1.15.1
+matplotlib
+pyyaml
+jinja2
+easydict
+ninja
