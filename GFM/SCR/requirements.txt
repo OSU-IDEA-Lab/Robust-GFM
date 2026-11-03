@@ -1,0 +1,20 @@
+# SCR original-arm evaluation. Python 3.11.
+# Install torch for your CUDA build first, then:
+#   pip install -r requirements.txt
+torch-geometric==2.4.0
+torch-scatter
+faiss-cpu
+wordninja
+easydict
+pyyaml
+jinja2
+scikit-learn
+ninja
+tqdm
+numpy
+scipy
+pandas
+networkx
+transformers==4.45.2
+sentence-transformers==3.3.1
+psutil

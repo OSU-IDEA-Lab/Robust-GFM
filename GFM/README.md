@@ -11,6 +11,7 @@ with its evaluation code, scripts and README.
 | folder | model | task | status |
 | --- | --- | --- | --- |
 | `ULTRA/` | ULTRA 3g / 4g / 50g (KG link prediction, relation-agnostic) | zero-shot LP on WN18RR, FB15k-237, Hetionet | complete; expected results in `ULTRA/README.md` |
+| `SCR/` | SCR `scr_3g` (KG-pretrained, relation-agnostic) | original-arm zero-shot and fine-tune on DBLP paper–venue and IMDb node classification, movie–director, and movie–year | runners and preprocessing in `SCR/README.md` |
 | `TEMPLATE/` | skeleton for a new GFM | — | copy to start a new folder |
 
 ## Layout
