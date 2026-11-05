@@ -1,0 +1,15 @@
+# Upstream MOTIF checkout (fetched at a pinned commit; see README.md)
+/upstream/
+
+# Data: only the README and checksums are tracked
+/rai-datasets/*
+!/rai-datasets/README.md
+!/rai-datasets/SHA256SUMS
+
+# Run outputs and local environment
+/results/
+/logs/
+/.cache/
+/.venv
+__pycache__/
+*.py[cod]

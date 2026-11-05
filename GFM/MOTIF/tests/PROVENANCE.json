@@ -1,0 +1,29 @@
+{
+  "adaptations": [
+    "Model-independent graph/query export for structural MOTIF inputs",
+    "Bundled source defaults and one-command IMDb raw preprocessing",
+    "Universal arm optional; omitted by default",
+    "No SCR input features, SVD projection or semantic-neighbor construction"
+  ],
+  "adapted_from_scr": {
+    "script/lp_common.py": "1c48b07d3f36b23e40fc50f29488b8186f76f799108250193aac981bc4fc33b7",
+    "script/prepare_dblp_lp.py": "ca74462dfe26beb160d06127ffb75094ddccff4a1583ff2b8a199770387b362c",
+    "script/prepare_imdb_lp.py": "5868ad61d20e7334efd1c9346c067fb49eb29b4c3da59e408765329d6e716868"
+  },
+  "format": "motif_preprocessing_sources_v1",
+  "source": "SCR/INV-GNN-12D9",
+  "vendored_files": {
+    "common/imdb_canonical_features.py": "355dda9143413042227ecd17c931e9d3f8c0db6c2cb758ccf9dffc32d502d9e4",
+    "common/inv_rgcn/__init__.py": "4098fd4c3d1053ed6eab32fc39da574021a6fc4efd01804c523c4beb89741c2e",
+    "common/inv_rgcn/data.py": "74b9a3ff4a7443c7d145dcd09f87929509f5dfefdd71bbaec8a2a63ba4bbd5c6",
+    "common/inv_rgcn/model.py": "cec87778a7d44f76dcf1ef23c736f1458b39c5620d3a274a1f992c2df6b1bb14",
+    "common/inv_rgcn/utils.py": "7ca323291a2b3f2a1aafa6a4585945f296e405ed060839ffbc22c72a22eb2732",
+    "data/SHA256SUMS": "514e8b18dd98c6b547bf29846ddb34e7090e4e36ef3f5f126d2ae1aeefb90863",
+    "dataset_construction/dblp/paper-venue_shared_splits.py": "b42b0d2fba9baf48110e8f442f7f853c518dd049dba601c1a60853a79b6fed4b",
+    "dataset_construction/dblp/verify_dblp_canonical_splits.py": "f1b82e503febdee6419fda3b6453e86bd823101f65f8f24084bfda3c545b5a44",
+    "dataset_construction/imdb/build_IMDB_my_shared_splits.py": "7277f197984b1910bd0a16f047d24f281d3852ead69ce3f54bf27f81cb57f47f",
+    "dataset_construction/imdb/reconstruct_IMDB_md_ml_shared_splits.py": "c459e6eaf6173ff480a971b7eb650ac67a93080d1ffa8ba915f5e255c85af8bc",
+    "models/RGCN/preprocess_DBLP_rgcn_structural.py": "bffdb69c3e8ff7dd82266e373b30343bc42ad595d9b1c9dac4df103bdd445119",
+    "models/RGCN/preprocess_IMDB_rgcn_structural.py": "0a7e804b10e8227b2c725aa6ce4b5543cd5463d3cd1501737e75c83a2197f154"
+  }
+}

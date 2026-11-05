@@ -1,0 +1,11 @@
+# Install matched CUDA Torch/PyG extension wheels separately; see the evaluation guide.
+-r requirements-preprocess.txt
+torch-geometric==2.4.0
+ninja
+easydict
+pyyaml
+jinja2
+packaging==24.0
+# PyTorch 2.1's extension builder imports pkg_resources.
+setuptools==69.5.1
+triton==2.1.0; platform_system == "Linux"
